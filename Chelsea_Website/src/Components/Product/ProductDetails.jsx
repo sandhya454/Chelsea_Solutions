@@ -9,7 +9,7 @@ import VideoSection from './VideoSection/VideoSection';
 function ProductDetails() {
   return (
  <>
-    <Details/>
+    <Details page={'Product Details'}/>
     <Introduction/>
     <Installation/>
     <Work/>

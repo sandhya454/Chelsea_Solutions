@@ -9,8 +9,9 @@ import leftCircle from '../../assets/Images/Footer/LeftCircle.png';
 import TopCircle from '../../assets/Images/Footer/TopCircle.png';
 import SolidCircle from '../../assets/Images/Footer/SolidCircle.png';
 import SmallCircle from '../../assets/Images/Footer/SmallCircle.png';
-
+import {useNavigate} from 'react-router-dom'
 function Footer() {
+    const navigate=useNavigate()
   return (
     <div className='FooterCont'>
             <div className='FooterContainer'>
@@ -50,8 +51,9 @@ function Footer() {
                     <li> <h3>Useful Links</h3></li>
                     <li>Download App</li>
                     <li>Registration</li>
-                    <li>Bussiness</li>
-                    <li>Privacy</li>
+                  
+                    <li onClick={()=>{navigate('terms-and-conditions')}}>Terms & Conditions</li>
+                    <li onClick={()=>{navigate('privacy-policy')}}> Privacy Policy</li>
                 </ul>
             </div>
             <div className='Useful'>              
@@ -66,9 +68,10 @@ function Footer() {
             <div className='Useful'>               
                 <ul>
                     <li><h3>Explore</h3></li>
-                    <li>About Us</li>
-                    <li>Our Mission</li>
-                    <li>How It Work</li>
+                    <li onClick={()=>{navigate('about-us')}}>About Us</li>
+                    <li onClick={()=>{navigate('contact-us')}}>Contact Us</li>
+                    <li onClick={()=>{navigate('about-us')}}>Our Mission</li>
+                    <li onClick={()=>{navigate('product-details')}}>How It Work</li>
                     <li>Policy</li>
                 </ul>
             </div>

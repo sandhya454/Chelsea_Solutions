@@ -1,0 +1,130 @@
+.AboutUsCont{
+    width: 90%;
+    display: flex;
+    padding: 5%;
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+   
+    gap:5%;
+    align-items: center;
+    
+}
+
+.AboutContent{
+   
+    flex: 1.2;
+    line-height: 1.5;
+    
+   
+}
+
+.AboutContent h2{
+    color: #00376a;
+    font-size: 2rem;
+}
+.AboutContent p{
+    text-align: justify;
+    font-weight: 550;
+}
+.AboutContent button{
+    border: none;
+    font-size: 1.2rem;
+    background-color: #2174c8;
+    padding: 2% 5%;
+    box-shadow: 0px 0px 5px 0px rgb(188, 187, 187);
+    border-radius: 2vw;
+    color:white;
+    cursor: pointer;
+    display: block;
+    border: #2174c8 2px solid;
+    font-weight: 500;
+  
+}
+.AboutContent button:hover{
+    border: #2174c8 2px solid;
+    background-color: white;
+    color:#2174c8;
+
+}
+.AboutUsImageCont{
+    background-color:#b2d9ff;
+   
+    border-radius: 2vw;
+    box-shadow: 0px 0px 4px 0px rgb(197, 194, 194);
+
+    flex: 1.2;
+    padding:0% 2%;
+   
+  
+   
+}
+.AboutUsImageCont img{
+   width: 100%;
+    transform: rotate(-10deg);
+    object-fit: contain;
+    border-radius: 2vw;
+}
+
+.MissionMainCont{
+    background-color: rgb(252, 252, 250);
+    width: 90%;
+    padding:2% 5%;
+    display: flex;
+   
+   
+}
+
+.MissionMainCont img{
+    flex: 1;
+    width: 40%;
+}
+.MissionMainCont div h2{
+    color:#00376a;
+    font-size: 2rem;
+    border-bottom: 3px solid #00376a;
+    width: min-content;
+}
+
+.MissionMainCont div p{
+    text-align: justify;
+    font-weight: 500;
+}
+.MissionMainCont div{
+    width: 90%;
+    padding:5%;
+    line-height: 1.5;
+}
+
+.VissionMainCont{
+    width: 90%;
+    padding:2% 5%;
+    display: flex;
+    gap:5%;
+   
+}
+.VissionMainCont img{
+    flex: 1;
+    width: 40%;
+}
+
+
+.VissionMainCont div h2{
+    color:#00376a;
+    font-size: 2rem;
+    border-bottom: 3px solid #00376a;
+    width: min-content;
+}
+
+.VissionMainCont div p{
+    text-align: justify;
+    font-weight: 500;
+}
+.VissionMainCont div{
+    width: 90%;
+    padding:5%;
+    line-height: 1.5;
+}
+.AboutMainCont .Details .Content .SubContent{
+    margin-top: -28%;
+}
