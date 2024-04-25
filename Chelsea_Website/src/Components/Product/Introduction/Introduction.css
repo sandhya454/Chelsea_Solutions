@@ -1,0 +1,88 @@
+.IntroductionPage{
+    width: 100%;
+    position: relative;
+    height: 50vw;
+    margin-bottom: 10%;
+}
+.IntroductionPage .BackgroundImage{
+    position: absolute;
+    z-index: -4;
+}
+.IntroductionPage .IntroductionOverview{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    box-sizing: border-box;
+   
+}
+.IntroductionPage .IntroductionOverview .MobileScreen{
+    width: 40%;
+    position: relative;
+    box-sizing: border-box;
+    margin-top: -20%;
+}
+.IntroductionPage .IntroductionOverview .MobileScreen img{
+    position: absolute;  
+}
+.IntroductionPage .IntroductionOverview .MobileScreen .Iphone{
+    width: 110%;
+    top: 39%;
+    left: 20%;
+    z-index: 20;
+}
+.IntroductionPage .IntroductionOverview .MobileScreen .Screen1{
+    top: 45%;
+    left: 36%;
+    z-index: 15;
+    width: 44%;
+}
+.IntroductionPage .IntroductionOverview .MobileScreen .Screen2{
+    top: 48%;
+    left: 12%;
+    width: 45%
+}
+.IntroductionPage .IntroductionOverview .IntroductionContent{
+    width: 45%;
+    box-sizing: border-box;
+} 
+.IntroductionPage .IntroductionOverview .IntroductionContent .Content h3{
+    box-sizing: border-box;
+    margin-top: 13%;
+    font-size: 2rem;
+    color: white;
+    font-weight: 300;
+}
+.IntroductionPage .IntroductionOverview .IntroductionContent .Content h2{
+    font-size: 3rem;
+    color: white;
+    line-height: 150%;
+    margin-top: -5%;
+}
+.IntroductionPage .IntroductionOverview .IntroductionContent .Content p{
+    color: white;
+    line-height: 200%;
+    padding-right: 23%;
+    font-size: 1.2rem;
+    margin-top: -5%;
+    font-weight: 300;
+}
+.IntroductionPage .IntroductionOverview .IntroductionContent .Content h4{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 300;
+} 
+.IntroductionPage .IntroductionOverview .IntroductionContent .Content ul li{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    line-height: 200%;
+}
+.IntroductionPage .IntroductionOverview .IntroductionContent .Content ul li div{
+    font-size: 1.3rem;
+    color: white;
+}
+.IntroductionPage .IntroductionOverview .IntroductionContent .Content ul li .Icons{
+    font-size: 1.8rem;
+}
+

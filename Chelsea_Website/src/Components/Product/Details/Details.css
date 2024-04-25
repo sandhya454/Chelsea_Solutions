@@ -1,0 +1,47 @@
+.ProductDetails{
+    position: relative;
+    width: 100%;
+    margin-bottom: 15%;
+}
+.ProductDetails .Details{
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.ProductDetails .Details .Images{
+    position: relative;
+}
+.ProductDetails .Images img{
+    position: absolute;
+}
+.ProductDetails .Images .BlueRectangle{
+    left: 10%;
+    top: -3%;
+}
+.ProductDetails .Images .BlueVector{
+    right: 10%;
+    top: -3%;
+}
+.ProductDetails .Images .Star{
+    left: 5%;
+    bottom: -70%;
+}
+.ProductDetails .Images .Triangle{
+    right: 5%;
+    bottom: -70%;
+}
+.ProductDetails .Details .Content .SubContent{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: -8%;
+}
+.ProductDetails .Details .Content .SubContent p{
+    margin-right: 1.5%;
+    font-size: 1.4rem;
+}
+.ProductDetails .Details .Content h2{
+    font-size: 3rem;
+}

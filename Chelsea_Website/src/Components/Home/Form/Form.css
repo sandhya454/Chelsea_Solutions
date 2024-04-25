@@ -1,0 +1,135 @@
+.HomePageForm{
+    width: 100%;
+    height: 42vw;
+    box-sizing: border-box;
+    margin-top: 5%;
+}
+.HomePageForm .FormCard{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    height: 98%;
+}
+.HomePageForm .FormCard .Form{
+    margin-left: 5%;
+    padding: 2%;
+    width: 40%;
+    box-sizing: border-box;
+    border-radius: 1.5vw;
+    box-shadow: 0.1vw 0.1vw 1vw 0.1vw gray;
+}
+.HomePageForm .FormCard .Form .Content{
+    width: 100%;
+    padding: 4%;
+    margin-top: -7%;
+}
+.HomePageForm .FormCard .Form .Content h2{
+    font-size: 2rem;
+}
+.HomePageForm .FormCard .Form .Content p{
+    width: 80%;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 160%;
+}
+.HomePageForm .FormCard .Form form{
+    width: 100%;
+    padding: 2%;
+    box-sizing: border-box;
+    margin-top: -7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HomePageForm .FormCard .Form form div{
+    width: 100%;
+    margin-left: 3%;
+}
+.HomePageForm .FormCard .Form form div .btn {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    box-sizing: border-box;
+}
+.HomePageForm .FormCard .Form form div .btn button{
+    margin-left: -15%;
+    margin-top: 2.5%;
+    padding: 3%;
+    background:#3A80C8;
+    border: none;
+    border-radius: 1vw;
+    width: 40%;
+    color: white;
+    font-size: 1.2rem;
+
+
+}
+.HomePageForm .FormCard .Form form div .btn button:hover{
+    cursor: pointer;
+}
+.HomePageForm .FormCard .Form form div input{
+    width: 70%;
+    height: 50%;
+    margin: 2%;
+    padding: 4%;
+    border-radius: 1vw;
+    border: none;
+    box-shadow:  0.1vw 0.1vw 1vw 0.1vw rgb(123, 124, 124);
+    color: gray;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.HomePageForm .FormCard .LocationDetails{
+    width: 50%;
+}
+.HomePageForm .FormCard .LocationDetails .Details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HomePageForm .FormCard .LocationDetails .Details .icons{
+    width: 10%;
+    background-color: #3A80C8;
+    /* height: 30%; */
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    text-align: center;
+    padding: 2%;
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: 5vw;
+}
+.HomePageForm .FormCard .LocationDetails .Details .icons:hover{
+    color: #3A80C8;
+    background-color: white;
+}
+.HomePageForm .FormCard .LocationDetails h2{
+    font-size: 2.5rem;
+}
+.HomePageForm .FormCard .LocationDetails .Details .icons .icon{
+    color: white;
+    font-size: 2.5rem;
+}
+.HomePageForm .FormCard .LocationDetails .Details .icons .icon:hover{
+    color: #3A80C8;
+}
+.HomePageForm .FormCard .LocationDetails .Details .Content{
+    width: 80%;
+    margin-left: 3%;
+    box-sizing: border-box;
+
+}
+.HomePageForm .FormCard .LocationDetails .Details .Content h3{
+    font-size:1.8rem;
+}
+.HomePageForm .FormCard .LocationDetails .Details .Content p{
+    font-size: 1.1rem;
+    margin-top: -2%;
+}
+.HomePageForm .DownloadCont{
+    background-color: blue;
+    height: 45%;
+    margin-left: 4%;
+
+}

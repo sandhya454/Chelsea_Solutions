@@ -1,0 +1,120 @@
+.MobileScreens{
+   position: relative;
+   width: 100%;
+   height: 100%;
+   margin-top: -5%;
+}
+.MobileScreens .MobileScreenView{
+    width: 100%;
+    position: relative;
+   
+}
+.MobileScreens .MobileScreenView .ScreenContent{
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    height: 50%;
+  
+}
+.MobileScreens .MobileScreenView .ScreenContent h2{
+    font-size: 3rem;
+    line-height: 130%;
+    z-index: 200;
+    width: 100%;
+    position: relative;
+    color: #3A80C8;
+    font-weight: 700;
+}
+.MobileScreens .MobileScreenView .ScreenContent p{
+    font-size: 1.2rem;
+    width: 70%;
+    margin-left: 10%;
+    padding: 1% 3%;
+    line-height: 170%;
+}
+.MobileScreens .DisplayScreens .ScreenBg{
+    position: absolute;
+     top: 15%;
+    width: 100%;
+    z-index: -1;
+
+}
+.image-gallery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 45vw;
+  }
+  
+  .image-list {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+ 
+  }
+  
+  .image-list img {
+    width:16%;
+    box-sizing: border-box;
+    height: 75%;
+    margin: 0.5%;
+    border-radius: 1vw;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 1.5vw;
+  
+  } 
+  .image-list img:nth-child(2n+1){
+    position: relative;
+    top: 15%;
+  } 
+  .image-list img:nth-child(2n){
+    position: relative;
+    top: 5%;
+  }
+  .image-list img.active { 
+    transform: scale(1.2);
+    height: 70%;
+    border: 5px solid black;
+    margin: 2%;
+    /* width: 50%; */
+    margin-top: 3%;
+    box-shadow: 0.2vw 0.2vw 1vw 1vw rgb(216, 214, 214);
+    position: relative;
+    top: 0%;
+    padding: 0.2%;
+  } 
+  .navigation-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 3.5%;
+  }
+  
+  .navigation-buttons button {
+    margin: 3%;
+    padding: 8px 16px;
+    color: #007bff;
+    /* color: white; */
+    border: 2px solid  #007bff;
+    border-radius: 0.5vw;
+    cursor: pointer;
+    background-color: white;
+    /* transition: background-color 3s ease-in-out; */
+  }
+  .navigation-buttons button:hover{
+    background-color: #007bff;
+    color: white;
+    font-weight: 600;
+
+  }
+  .navigation-buttons button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

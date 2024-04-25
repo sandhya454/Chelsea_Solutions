@@ -1,0 +1,28 @@
+.InstallationExp{
+    width: 100%;
+    position: relative;
+}
+.InstallationExp .Explpanation{
+    display: flex;
+    justify-content: space-between;
+}
+.InstallationExp .Explpanation .Content{
+    width: 50%;
+    padding: 0% 5%;
+    margin-top: -3%;
+}
+.InstallationExp .Explpanation .Content h2{
+    font-size: 4rem;
+    font-weight: 600;
+} 
+.InstallationExp .Explpanation .Content p{
+    font-size: 1.3rem;
+    line-height: 200%;
+    padding-right: 17%;
+}
+.InstallationExp .Explpanation .Content img{
+    margin-right:5% ;
+}
+.InstallationExp .Explpanation .Image{
+    width: 40%;
+}

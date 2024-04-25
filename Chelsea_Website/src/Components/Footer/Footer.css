@@ -1,0 +1,107 @@
+.FooterCont{
+    width: 100%;
+    position: relative;
+    /* padding: 0% 5%; */
+    height: 60vw;
+    box-sizing: border-box;
+    border-bottom: 2px dashed black;
+
+}
+.FooterCont .FooterContainer{
+    border-radius: 2vw;
+    background: linear-gradient(100.56deg, #3A80C8 31.28%, #3D8DDE 88.11%);
+    height: 50%;
+    margin: 4%;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    position: relative;
+}
+.FooterCont .FooterContainer .FooterImages{
+    position: relative;
+    width: 50%;
+} 
+.FooterCont .FooterContainer .LeftCircle{
+    position: absolute;
+    bottom: 0%;
+}
+.FooterCont .FooterContainer .SolidCircle{
+    position: absolute;
+    bottom: 0%;
+    left: 70%;
+}
+.FooterCont .FooterContainer .TopCircle{
+    position: absolute;
+    left: 70%;
+}
+.FooterCont .FooterContainer .SmallCircle{
+    position: absolute;
+    right: -83%;
+    top: 28%;
+}
+
+.FooterCont .FooterContainer .FooterImages .FooterImage{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 60%;
+}
+.FooterCont .FooterContainer .FooterContent{
+    width: 50%;
+
+}
+.FooterCont .FooterContainer .FooterContent .Content{
+    width: 90%;
+}
+.FooterCont .FooterContainer .FooterContent .Content h2{
+    font-size: 2.5rem;
+    line-height: 150%;
+    color: white;
+}
+.FooterCont .FooterContainer .FooterContent .Content p{
+    font-size: 1.2rem;
+    line-height: 150%;
+    padding: 0% 20% 0% 0%;
+    color: white;
+}
+.FooterCont .FooterContainer .FooterContent .Content img{
+    margin-right: 4%;
+}
+
+.FooterCont .FooterItems{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.FooterCont .FooterItems .FooterBg{
+    position: absolute;
+    top: 50%;
+}
+.FooterCont .FooterItems .Footerlogo {
+    width: 40%;
+}
+.FooterCont .FooterItems .Footerlogo p{
+     font-size: 1.4vw;
+     padding-right: 25%;
+     line-height: 160%;
+}
+.FooterCont .FooterItems .Footerlogo .Logo{
+    width: 20%;
+}
+.FooterCont .FooterItems .Useful h3{
+    text-align: left;
+    font-size: 1.7vw;
+
+}
+.FooterCont .FooterItems .Useful ul{
+    width: 80%;
+}
+.FooterCont .FooterItems .Useful ul li{
+    list-style: none;
+    text-align: left;
+    margin-top: 15%;
+    font-size: 1.3vw;
+    
+ 
+}

@@ -1,0 +1,71 @@
+.HeroContainer{
+    width: 100%;
+    position: relative;
+} 
+.HeroContainer .HeroContent{
+    display: flex;
+    margin-top: 10%;
+
+}
+.HeroContainer .HeroContent .Content{
+    width: 70%;
+    box-sizing: border-box;
+    margin-left: 7%;
+    
+}
+.HeroContainer .HeroContent .Content .Pyramid_Vector{
+    position: absolute;
+    left: 0%;
+    top: -15%;
+}
+.HeroContainer .HeroContent .Content .Circle_Vector{
+    position: absolute;
+    right: 49%;
+}
+.HeroContainer .HeroContent .Content .Triangle_Vector{
+    position: absolute;
+    bottom: -3%;
+    right: 50%;
+}
+.HeroContainer .HeroContent .Content h2{
+    font-size: 3.5vw;
+    line-height: 130%;
+    width: 100%;
+}
+.HeroContainer .HeroContent .Content p{
+    font-size:1.6vw;
+    font-weight: 500;
+    line-height: 150%;
+}
+.HeroContainer .HeroContent .Content img{
+    margin-left: 4%;
+    box-sizing: border-box;
+    margin-top: 5%;
+}
+.HeroContainer .HeroContent .HeroImg{
+    width: 80%;
+}
+
+.HeroContainer .HeroContent .HeroImg .Mobiles{
+    position: absolute;
+    width: 49%;
+    z-index: 1;
+}
+.HeroContainer .HeroContent .HeroImg .White_Circle{
+    position: absolute;
+    width: 23%;
+    top: -27%;
+    right: 4%;
+}
+.HeroContainer .HeroContent .HeroImg .Semi_Circle{
+    position: absolute;
+    width: 35%;
+    right: 0%;
+    top: -10%;
+}
+.HeroContainer .HeroContent .HeroImg .Circle_Gradient{
+    position: absolute;
+   left: 45%;
+   top: -30%;
+   width:35%;
+}

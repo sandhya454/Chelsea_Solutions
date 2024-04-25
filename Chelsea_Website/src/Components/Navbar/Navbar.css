@@ -1,0 +1,49 @@
+.NavbarMainCont{
+ width: 100%;
+ height: 6vw;
+ position: fixed;
+ top: 0%;
+ z-index: 1000;
+ background-color: transparent;
+ transition: background-color 0.3s ease;
+} 
+.NavbarMainCont.scrolled{
+    background-color: #333;
+    color: white;
+}
+.NavbarMainCont .NavDesktop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.NavbarMainCont .NavDesktop .NavImg{
+    box-sizing: border-box;
+    width: 30%;
+    height: 98%;
+}
+.NavbarMainCont .NavDesktop .NavImg .NavLogo{
+    width: 25%; 
+    margin-left: 9%; 
+    margin-top: -1%;
+}
+.NavbarMainCont .NavDesktop .NavItems {
+    width: 70%;
+}
+.NavbarMainCont .NavDesktop .NavItems ul{
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+}
+.NavbarMainCont .NavDesktop .NavItems ul li{
+    list-style: none;
+    font-size: 1.5vw;
+    font-weight: 700;
+    font-family: 'Poppins','Sanserif';
+   
+}
+.NavbarMainCont .NavDesktop .NavItems ul li:hover{
+    color: #1B6FC5;
+    cursor: pointer;
+}
