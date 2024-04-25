@@ -36,7 +36,7 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    margin-top: -8%;
+    margin-top: -18%;
 }
 .ProductDetails .Details .Content .SubContent p{
     margin-right: 1.5%;
@@ -44,4 +44,16 @@
 }
 .ProductDetails .Details .Content h2{
     font-size: 3rem;
+}
+
+.SubContent p {
+    cursor: pointer;
+    
+}
+
+.SubContent p:hover{
+    color:blue;
+}
+.pageName{
+    color: blue;
 }

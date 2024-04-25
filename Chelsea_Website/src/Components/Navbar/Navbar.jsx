@@ -33,8 +33,8 @@ function Navbar() {
           <ul>
             <li onClick={()=>goTo("/")}>Home</li>
             <li onClick={()=>{goTo("/product-details")}}>Product Details</li>
-            <li onClick={()=>{goTo("contact-us")}}>About Us</li>
-            <li onClick={()=>{goTo("blogs")}}>Blogs</li>
+            <li onClick={()=>{goTo("about-us")}}>About Us</li>
+            <li onClick={()=>{goTo("/")}}>Blogs</li>
             <li onClick={()=>{goTo("contact-us")}}>ContactUs</li>
           </ul>       
         </div>

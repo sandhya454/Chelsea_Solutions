@@ -7,7 +7,7 @@ import Work from './Work/Work';
 function ProductDetails() {
   return (
  <>
-    <Details/>
+    <Details page={'Product Details'}/>
     <Introduction/>
     <Installation/>
     <Work/>

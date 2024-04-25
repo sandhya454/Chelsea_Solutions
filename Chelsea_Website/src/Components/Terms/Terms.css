@@ -1,0 +1,21 @@
+.TermsCont{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.TermsCont p{
+    line-height: 1.5;
+    font-weight: 500;
+    text-align: justify;
+    color:rgb(63, 63, 63);
+    background-color: aliceblue;
+    width: 96%;
+    padding: 2%;
+    border-radius: 1vw;
+    box-shadow: 0px 0px 5px 0px rgb(233, 233, 233);
+}
+
+.TermsCont h2{
+    color: #3A80C8;
+}

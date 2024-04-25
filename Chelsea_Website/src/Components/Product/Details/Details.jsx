@@ -5,17 +5,18 @@ import BlueRectangle from '../../../assets/Images/Product_Details/Blue_Rectangle
 import BlueVector from '../../../assets/Images/Product_Details/Blue_Vector.png';
 import Star from '../../../assets/Images/Product_Details/Star.png';
 import Triangle from '../../../assets/Images/Product_Details/Triangle.png'
-
-function Details() {
+import { useNavigate } from 'react-router-dom';
+function Details({page}) {
+  const navigate=useNavigate()
   return (
     <div className='ProductDetails'>
         <div className='Details'>
             <div className='Content'>
-            <h2>Product Details</h2>
+            <h2>{page}</h2>
             <div className='SubContent'>
-                <p>Home</p>
+                <p onClick={()=>{navigate('/')}}>Home</p>
                 <p><Icon icon="fe:arrow-right" /></p>
-                <p>Product Details</p>
+                <p className='pageName'>{page}</p>
             </div>           
             </div>
           
