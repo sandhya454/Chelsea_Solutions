@@ -1,0 +1,106 @@
+.ScreenExplanation{
+    position: relative;
+    margin-top: -18.5%;
+    width: 100%;
+    box-sizing: border-box;
+}
+.ScreenExplanation .ActorScreen{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin-left: 5%;
+    height: 50vw;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    
+}
+.ScreenExplanation .ActorScreen .Actors{
+    margin-top: 10%;
+    padding-left: 3%;
+}
+.ScreenExplanation .ActorScreen .Content{
+    width: 70%;
+  padding-right:20%
+}
+.ScreenExplanation .ActorScreen .Content .Text{
+    width: 60%;
+}
+.ScreenExplanation .ActorScreen .Content .Text h2{
+    font-size: 4rem;
+    width: 100%;
+}
+.ScreenExplanation .ActorScreen .Content .Text p{
+    font-size: 1.4rem;
+    line-height: 170%;
+    width: 110%;
+}
+.ScreenExplanation .ActorScreen .Content .Text span{
+    color: #3C88D5;
+}
+.ScreenExplanation .ActorScreen .Images img{
+    position: absolute;
+}
+.ScreenExplanation .ActorScreen .Images .ActorOne{
+    right: 7%;
+    z-index: -3;
+    top: 12%;
+}
+
+.ScreenExplanation .ActorScreen .Images .ActorTwo{
+    right: 33%;
+    top: 13%;
+  z-index: 5;
+}
+.ScreenExplanation .ActorScreen .Images .ActorThree{
+    z-index: 6;
+    right: 20%;
+    top: 10%;
+} 
+.ScreenExplanation .DirectorScreen{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 48vw;
+    width: 95%;
+    border-right: 2px solid black;
+}
+.ScreenExplanation .DirectorScreen .Images{
+    position: relative;
+    top: 10%;
+    left: -3%;
+
+}
+.ScreenExplanation .DirectorScreen .Images .DirectorOne{
+    position: absolute;
+    left: 190% ;
+}
+.ScreenExplanation .DirectorScreen .Images .DirectorTwo{
+    position: absolute;
+    left: 110%;
+    z-index: 3;
+}
+.ScreenExplanation .DirectorScreen .Images .DirectorThree{
+    position: relative;
+    left: 30%;
+    z-index: 30;
+}
+.ScreenExplanation .DirectorScreen .Content{
+    width: 45%;
+}
+.ScreenExplanation .DirectorScreen .Content .Text{
+    width: 80%;
+
+}
+.ScreenExplanation .DirectorScreen .Content .Text h2{
+    font-size: 4rem;
+    width: 120%;
+}
+.ScreenExplanation .DirectorScreen .Content .Text h2 span{
+    color: #3C88D5;
+
+}
+.ScreenExplanation .DirectorScreen .Content .Text p{
+    font-size: 1.4rem;
+    line-height: 170%;
+    width: 110%;
+}

@@ -1,0 +1,29 @@
+.VideoSection{
+    width: 100%;
+    position: relative;
+    height: 50vw;
+}
+.VideoSection .VideoBackground{
+    position: absolute;
+    z-index: -3;
+}
+.VideoSection .Content{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.VideoSection .Content h2{
+    font-size: 3rem;
+    width: 60%;
+    margin-left: 20%;
+    line-height: 150%;
+
+}
+.VideoSection .Content p{
+    font-size: 1.5rem;
+}
