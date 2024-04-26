@@ -47,7 +47,7 @@
 }
 .FeaturesCont .FeaturesExpalanation .Designs div .FeatureHeading{
     display: flex;
-    width: 100%;
+    width: 120%;
     align-items: center;
     justify-content: center;
 }
@@ -65,19 +65,17 @@
     height: 3vw;
     border-radius: 110%;
     padding: 10%;
-   background-color:white;
-   box-sizing: border-box;
+    background-color:white;
+    box-sizing: border-box;
 }
 .FeaturesCont .FeaturesExpalanation .Designs div .FeatureHeading .FeatureNumber div .Number{
     font-size: 1.6rem;   
     box-sizing: border-box;
-    font-weight: 700;
-    /* padding: 3%; */
+    font-weight: 600;
     margin-top: -10%;
     width: 100%;
     height: 120%;
     color: black;
-    /* border: 1px solid black; */
     border-radius: 1vw;
 }
 .FeaturesCont .FeaturesExpalanation .Designs h2{
@@ -91,13 +89,13 @@
    
 }
 .FeaturesCont .FeaturesExpalanation .Designs h3{
-    width: 100%;
-    font-size: 2rem;
+    width: 120%;
+    font-size: 1.6rem;
 }
 .FeaturesCont .FeaturesExpalanation .Designs p{
     width: 90%;
-    font-size: 0.9rem;
+    font-size: 0.9rem; 
     line-height: 150%;
-    margin-top: -1%;
+    margin-top: 0%;
     padding: 1%;
 }

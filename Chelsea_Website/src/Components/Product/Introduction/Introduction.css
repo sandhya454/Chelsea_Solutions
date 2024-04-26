@@ -54,10 +54,11 @@
     font-weight: 300;
 }
 .IntroductionPage .IntroductionOverview .IntroductionContent .Content h2{
-    font-size: 3rem;
+    font-size: 2.3rem;
     color: white;
     line-height: 150%;
-    margin-top: -5%;
+    font-weight: 600;
+    margin-top: 0%;
 }
 .IntroductionPage .IntroductionOverview .IntroductionContent .Content p{
     color: white;
@@ -65,12 +66,12 @@
     padding-right: 23%;
     font-size: 1.2rem;
     margin-top: -5%;
-    font-weight: 300;
+    font-weight: 400;
 }
 .IntroductionPage .IntroductionOverview .IntroductionContent .Content h4{
     color: white;
     font-size: 1.3rem;
-    font-weight: 300;
+    font-weight: 500;
 } 
 .IntroductionPage .IntroductionOverview .IntroductionContent .Content ul li{
     display: flex;

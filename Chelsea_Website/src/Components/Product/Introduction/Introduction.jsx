@@ -19,16 +19,16 @@ function Introduction() {
                  <div className='IntroductionContent'>
                             <div className='Content'>
                                 <h3>CALLSHEETS</h3>
-                                <h2>Introduction Of Projetcs Overview</h2>
-                                <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to 
-                                    demonstrate the visual form of a document or a typeface without relying on meaningful content.
-                                     Lorem ipsum may be used as a placeholder before the final copy is available.</p>
-                                <h4>Project Intention</h4>
+                                <h2>Introducing Callsheets </h2>
+                                <p>Meet Callsheets, the app that simplifies scheduling for actors, directors, and production teams.
+                                  Manage your schedule and showcase achievements effortlessly. Stay organized and take your career to 
+                                  new heights with Callsheets.</p>
+                                <h4>Features</h4>
                                 <ul>
-                                    <li><div><Icon icon="mdi:tick" className='Icons' /></div> <div>In Publishing and graphic design</div></li>
-                                    <li><div><Icon icon="mdi:tick" className='Icons'/></div> <div>In Publishing and graphic design</div></li>
-                                    <li><div><Icon icon="mdi:tick" className='Icons'/></div> <div>In Publishing and graphic design</div></li>
-                                    <li><div><Icon icon="mdi:tick" className='Icons' /></div> <div>In Publishing and graphic design</div></li>
+                                    <li><div><Icon icon="mdi:tick" className='Icons' /></div> <div>User Friendly</div></li>
+                                    <li><div><Icon icon="mdi:tick" className='Icons'/></div> <div>Unlimited Access</div></li>
+                                    <li><div><Icon icon="mdi:tick" className='Icons'/></div> <div>Effecient Scheduling</div></li>
+                                    <li><div><Icon icon="mdi:tick" className='Icons' /></div> <div>Fully Responsive</div></li>
 
                                 </ul>
                             </div>

@@ -2,6 +2,7 @@
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .TermsCont p{
@@ -18,4 +19,8 @@
 
 .TermsCont h2{
     color: #3A80C8;
+}
+
+.TermsMainCont .Details .Content .SubContent{
+    margin-top: -15%;
 }

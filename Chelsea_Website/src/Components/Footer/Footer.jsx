@@ -28,9 +28,7 @@ function Footer() {
                 <div className='FooterContent'>
                             <div className='Content'>
                             <h2>Lets Download Callsheets Mobile App Free</h2>
-                            <p>A Private Limited is the most popular type of
-                                 partnership Malta. The limited liability's in fact, 
-                                 the only type of the marketplace worldwide</p>
+                            <p>Discover a new way to simplify your life with our amazing app.</p>
                              <img src={googlePlay} alt="googlePlay" className='GooglePlay' /> 
                              <img src={Apple} alt="Apple" className='Apple'/>
                             </div>
@@ -42,9 +40,9 @@ function Footer() {
             <img src={FooterBg} alt="FooterBg"  className='FooterBg'/>
             <div className='Footerlogo'>
                 <img src={logo} alt="logo" className='Logo' />
-                <p>Indignation and dislike men who are so beguiled and
-                     demoralized by the charms of pleasure of the moment,
-                      so blinded by desire that they cannot foresee.</p>
+                <p>Chelsea Solutions, where cutting-edge technology meets creative solutions. 
+                    We specialize in developing apps, providing state-of-the-art software 
+                    solutions, harnessing the power of cloud computing, and exploring the depths of data science.</p>
             </div>
             <div className='Useful'>              
                 <ul>

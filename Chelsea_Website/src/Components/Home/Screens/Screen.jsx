@@ -69,7 +69,7 @@ function Screen() {
 
   const prevImage = () => {
     setCurrentIndex((prevIndex) => (prevIndex - 1+ images.length) % images.length);
-  };
+  }; 
 
   const imageClick = (index) => {
     setCurrentIndex(index);
@@ -87,7 +87,6 @@ function Screen() {
     return end > startIndex ? images.slice(startIndex, end) : [...images.slice(startIndex), ...images.slice(0, end)];
 };
 
-// Get the circular sublist based on the startIndex
 const sublist = getCircularSublist(startIndex);
   
 
@@ -96,8 +95,10 @@ const sublist = getCircularSublist(startIndex);
       <div className='MobileScreenView'>
         <div className='ScreenContent'>
           <h2>The Most Effective App for Your <br />Future Projects</h2>
-          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at
-            its layout It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout..</p>
+          <p>Introducing our revolutionary app for call sheet management in movie shooting, 
+            designed to streamline coordination for directors, actors, actresses, and technicians.
+             Manage and distribute call sheets effortlessly,
+             ensuring smooth operations on set. Key features and benefits include</p>
         </div>
       </div>
       <div className='DisplayScreens'>
@@ -110,7 +111,6 @@ const sublist = getCircularSublist(startIndex);
                 src={image}
                 alt={`Image ${index + 1}`}
                 className={index === currentIndex+2 ? 'active' : ''}
-                onClick={() => imageClick(index)}
               />
             ))}
           </div>

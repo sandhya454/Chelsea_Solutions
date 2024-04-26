@@ -10,12 +10,12 @@ function Installation() {
         <div className='Explpanation'>
             <div className='Content'>
                 <h2>Installation Process</h2>
-                <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly
-                     used to demonstrate the visual form of a document or a typeface without relying on
-                      meaningful content. Lorem</p>
-                <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly
-                     used to demonstrate the visual form of a document or a typeface without relying on
-                      meaningful content. Lorem</p>
+                <p>
+To get Callsheets on your Android, go to the Google Play Store, search 'Callsheets,' tap 'Install,' then open the app.
+ Sign up or log in, set up your profile, and you're ready to manage schedules and showcase achievements with ease..</p>
+                <p>Installing Callsheets on your iPhone or iPad is simple. Just open the Apple App Store, search for 'Callsheets,
+                  ' tap 'Get,' and let it install. After it's done, open Callsheets, sign up or log in,
+                   customize your profile, and start using it to organize your schedule and showcase your achievements smoothly.</p>
                       <img src={GooglePlay} alt="GooglePlay" className='GooglePlay' />
                       <img src={AppleStore} alt="AppleStore" className='AppleStore' />
             </div>

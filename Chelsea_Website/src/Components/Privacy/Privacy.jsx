@@ -1,8 +1,11 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './Privacy.css'
 import Details from '../Product/Details/Details'
 
 function Privacy() {
+	useEffect(() => {
+		window.scrollTo(0, 0); 
+	}, []);
   return (
     <div className='PrivacyMainCont'>
         <Details page={'Privacy Policy'}/>

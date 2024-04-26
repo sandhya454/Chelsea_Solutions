@@ -20,3 +20,7 @@
 .PrivacyCont h2{
     color: #3A80C8;
 }
+
+.PrivacyMainCont .Details .Content .SubContent{
+    margin-top: -15%;
+}

@@ -6,8 +6,7 @@
 }
 .MobileScreens .MobileScreenView{
     width: 100%;
-    position: relative;
-   
+    position: relative;  
 }
 .MobileScreens .MobileScreenView .ScreenContent{
     width: 100%;
@@ -18,13 +17,13 @@
   
 }
 .MobileScreens .MobileScreenView .ScreenContent h2{
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 130%;
     z-index: 200;
     width: 100%;
     position: relative;
     color: #3A80C8;
-    font-weight: 700;
+    font-weight: 600;
 }
 .MobileScreens .MobileScreenView .ScreenContent p{
     font-size: 1.2rem;

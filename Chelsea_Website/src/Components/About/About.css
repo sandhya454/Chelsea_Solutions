@@ -4,19 +4,14 @@
     padding: 5%;
     background-color: aliceblue;
     margin-left: auto;
-    margin-right: auto;
-   
+    margin-right: auto;   
     gap:5%;
-    align-items: center;
-    
+    align-items: center;    
 }
 
-.AboutContent{
-   
+.AboutContent{  
     flex: 1.2;
-    line-height: 1.5;
-    
-   
+    line-height: 1.5;   
 }
 
 .AboutContent h2{
@@ -48,16 +43,11 @@
 
 }
 .AboutUsImageCont{
-    background-color:#b2d9ff;
-   
+    background-color:#b2d9ff;   
     border-radius: 2vw;
     box-shadow: 0px 0px 4px 0px rgb(197, 194, 194);
-
     flex: 1.2;
-    padding:0% 2%;
-   
-  
-   
+    padding:0% 2%;  
 }
 .AboutUsImageCont img{
    width: 100%;
@@ -70,9 +60,7 @@
     background-color: rgb(252, 252, 250);
     width: 90%;
     padding:2% 5%;
-    display: flex;
-   
-   
+    display: flex;  
 }
 
 .MissionMainCont img{

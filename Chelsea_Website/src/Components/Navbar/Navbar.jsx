@@ -37,7 +37,7 @@ function Navbar() {
             <li onClick={()=>{goTo("/")}}>Blogs</li>
             <li onClick={()=>{goTo("contact-us")}}>ContactUs</li>
           </ul>       
-        </div>
+        </div> 
     </div>
     <div className='NavMobile'>
     </div>        

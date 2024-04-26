@@ -18,35 +18,30 @@ function Work() {
             <div className='Content'>             
                 <div className='Question'>
                         <h3>How it work?</h3>
-                        <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly 
-                            used to demonstrate the visual form of a document or a typeface without
-                             relying on meaningful content. Lorem</p>
+                        <p>Callsheets streamlines actors' and directors' schedules in one app,
+                            featuring achievement showcases and collaboration tools for seamless career management.</p>
                 </div>
                 <div className='Card'>
                     <div className='SectionOne'>
                         <div className='SubSections'>
                             <img src={Login} alt="Login" className='LoginVector' />
                             <h3>LOGIN FIRST</h3>
-                            <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly
-                                 used to demonstrate the visual form of a document or a typeface </p>
+                            <p>Sign up to manage your schedule, showcase achievements, and collaborate seamlessly. </p>
                         </div>
                         <div className='SubSections'>
                             <img src={FaceTesting} alt="FaceTesting" className='FaceTesting' />
                             <h3>FACE TESTING</h3>
-                            <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly
-                                 used to demonstrate the visual form of a document or a typeface </p>
+                            <p>Streamline login on Callsheets with facial recognition technology for secure, hassle-free access using your unique facial features.</p>
                         </div>
                         <div className='SubSections'>
                             <img src={Schedules} alt="Schedules" className='Schedules' />
                             <h3>ADD SCHEDULES</h3>
-                            <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly
-                                 used to demonstrate the visual form of a document or a typeface </p>
+                            <p>Add auditions, rehearsals, and shoots effortlessly in Callsheets. Stay organized with just a few taps. </p>
                         </div>
                         <div className='SubSections'>
                             <img src={CheckMark} alt="CheckMark" className='Checkmark' />
                             <h3>GET BETTER</h3>
-                            <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly
-                                 used to demonstrate the visual form of a document or a typeface </p>
+                            <p>Level up your skills with Callsheets and unlock new opportunities in the entertainment industry. </p>
                         </div>
                     </div>
                    

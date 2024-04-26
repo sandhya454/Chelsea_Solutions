@@ -77,13 +77,15 @@
 .FooterCont .FooterItems .FooterBg{
     position: absolute;
     top: 50%;
+    z-index: -1;
 }
 .FooterCont .FooterItems .Footerlogo {
     width: 40%;
 }
 .FooterCont .FooterItems .Footerlogo p{
-     font-size: 1.4vw;
+     font-size: 1.2vw;
      padding-right: 25%;
+     font-weight: 500;
      line-height: 160%;
 }
 .FooterCont .FooterItems .Footerlogo .Logo{
@@ -91,17 +93,24 @@
 }
 .FooterCont .FooterItems .Useful h3{
     text-align: left;
-    font-size: 1.7vw;
+    font-size: 1.2rem;
 
 }
 .FooterCont .FooterItems .Useful ul{
     width: 80%;
-}
+} 
 .FooterCont .FooterItems .Useful ul li{
     list-style: none;
     text-align: left;
     margin-top: 15%;
-    font-size: 1.3vw;
+    font-size: 1.1rem;
+    cursor: pointer;
+    width: 120%;
+
+  
     
  
+}
+.FooterCont .FooterItems .Useful ul li:hover{
+    color: #3A80C8;
 }

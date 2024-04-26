@@ -1,13 +1,16 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Details from '../Product/Details/Details'
 import AboutImage from '../../assets/Images/people-with-laptops-office.jpg'
 import MissionImg from '../../assets/Images/18774.jpg'
 import VissonImg from '../../assets/Images/20943892.jpg'
 import './About.css'
 function About() {
+    useEffect(() => {
+		window.scrollTo(0, 0); 
+	}, []);
   return (
     <div className='AboutMainCont'>
-        <Details page={'About Us'}/>
+        <Details page={'About Us'}/> 
         <div className='AboutUsCont'>
             <div className='AboutContent'>
                 <h2>Where innovation ignites possibility</h2>

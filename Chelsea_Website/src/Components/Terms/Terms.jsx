@@ -1,11 +1,15 @@
 import React from 'react'
 import Details from '../Product/Details/Details'
 import './Terms.css'
+import { useEffect } from 'react'
 function Terms() {
+	useEffect(() => {
+		window.scrollTo(0, 0); 
+	}, []);
   return (
     <div className='TermsMainCont'>
         <Details page={'Terms & Conditions'}/>
-        <div className='TermsCont'>
+        <div className='TermsCont' >
         <h2>Effective Date: june 1, 2023</h2>
 	<h2>Website: www.chelseaspl.com</h2>
 	<h2>AGREEMENT:</h2>

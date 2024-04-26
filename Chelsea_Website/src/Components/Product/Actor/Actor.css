@@ -26,13 +26,15 @@
     width: 60%;
 }
 .ScreenExplanation .ActorScreen .Content .Text h2{
-    font-size: 4rem;
+    font-size: 2.3rem;
     width: 100%;
+    font-weight: 600;
 }
 .ScreenExplanation .ActorScreen .Content .Text p{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     line-height: 170%;
     width: 110%;
+    font-weight: 500;
 }
 .ScreenExplanation .ActorScreen .Content .Text span{
     color: #3C88D5;
@@ -92,15 +94,17 @@
 
 }
 .ScreenExplanation .DirectorScreen .Content .Text h2{
-    font-size: 4rem;
+    font-size: 2.3rem;
     width: 120%;
+    font-size: 600;
 }
 .ScreenExplanation .DirectorScreen .Content .Text h2 span{
     color: #3C88D5;
 
 }
 .ScreenExplanation .DirectorScreen .Content .Text p{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     line-height: 170%;
     width: 110%;
+    font-weight: 500;
 }

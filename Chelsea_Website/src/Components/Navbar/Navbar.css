@@ -6,6 +6,7 @@
  z-index: 1000;
  background-color: transparent;
  transition: background-color 0.3s ease;
+ font-family: 'Poppins', sans-serif;
 } 
 .NavbarMainCont.scrolled{
     background-color: #333;
@@ -27,6 +28,7 @@
     width: 25%; 
     margin-left: 9%; 
     margin-top: -1%;
+    cursor: pointer;
 }
 .NavbarMainCont .NavDesktop .NavItems {
     width: 70%;
@@ -38,8 +40,8 @@
 }
 .NavbarMainCont .NavDesktop .NavItems ul li{
     list-style: none;
-    font-size: 1.5vw;
-    font-weight: 700;
+    font-size: 1.2rem;
+    font-weight: 500;
     font-family: 'Poppins','Sanserif';
    
 }

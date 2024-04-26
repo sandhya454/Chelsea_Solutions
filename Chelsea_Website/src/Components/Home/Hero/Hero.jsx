@@ -15,14 +15,14 @@ export const Hero = () => {
   return (
       <div className='HeroContainer'>
         <div className='HeroContent'>
-        
+         
         <div className='Content'>
           <img src={pyramid} alt="pyramid" className='Pyramid_Vector' />
           <img src={circle} alt="circle" className='Circle_Vector'/>
           <img src={triangle} alt="triangle"  className='Triangle_Vector'/>
-              <h2>Bring Your Business<br/> Next Level With <br/>Callsheets Mobile App</h2>
-              <p>It is a long established fact that a reader will be distracted by<br/>
-               the readable content of a page when looking at its layout.</p>
+              <h2>Take Your Projects to the Next Level with the  <br/> <span>Callsheets Mobile App</span></h2>
+              <p>Empower your acting and directing journey with Callsheets: schedule
+                 management and achievement showcase, all in one app..</p>
               <img src={applestore} alt="applestore" />
               <img src={googlestore} alt="googlestore" />
         </div>

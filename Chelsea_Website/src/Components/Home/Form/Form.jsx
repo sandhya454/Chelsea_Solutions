@@ -5,7 +5,7 @@ import { Icon } from '@iconify/react';
 function Form() {
   return (
     <div className='HomePageForm'>
-        <div className='FormCard'>
+        <div className='FormCard'> 
             <div className="Form">
                 <div className='Content'>
                 <h2>ANY QUESTIONS?</h2>
@@ -24,7 +24,7 @@ function Form() {
                         <input type="text" placeholder='Subject' />
                     </div>
                     <div>
-                        <input type="text" placeholder='message' />
+                       <textarea name="" id="" cols="52" rows="5" placeholder='Message'></textarea>
                     </div>
                     <div className='btn'>
                         <button>Send Messsage</button>
@@ -46,21 +46,18 @@ function Form() {
                     <div className='icons'><Icon icon="mdi:phone" className='icon' /></div>
                     <div className='Content'>
                         <h3>Phone</h3>
-                        <p>9082598475,827837574</p>
+                        <p>919082598475,91827837574</p>
                     </div>
                 </div>
                 <div className='Details'>
                     <div className='icons'><Icon icon="ic:baseline-mail" className='icon' /></div>
                     <div className='Content'>
                         <h3>Email</h3>
-                        <p>stepnext@gmail.com</p>
+                        <p>ramki@stepnext.com</p>
                     </div>
                 </div>
             </div>
         </div>
-        {/* <div className='DownloadCont'>
-            <h2>Let’s Download Callsheets Mobile App Free</h2>
-        </div> */}
 
     </div>
   )

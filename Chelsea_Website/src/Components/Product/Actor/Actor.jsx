@@ -14,11 +14,10 @@ function Actor() {
             <div className='Content'>
                 <div className='Text'>
                 <h2> <span>Actor</span> Screens</h2>
-                <p>simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                    when an unknown printer took a galley of type and scrambled it to make a type
-                    specimen book. It has survived not only five centuries, but also the leap into
-                    electronic typesetting, remaining essentially</p>
+                <p>The actor screens in Callsheets offer a one-stop solution for managing schedules,
+                     showcasing achievements, and collaborating effectively. From viewing upcoming events
+                      to accessing call sheets and receiving notifications, Callsheets simplifies the actor's 
+                      workflow, ensuring seamless communication and organization.</p>
                 </div>
             </div>
             <div className='Images'>
@@ -39,11 +38,9 @@ function Actor() {
            <div className='Content'>           
                     <div className="Text">
                         <h2> <span>Director</span> Screen</h2>
-                        <p>simply dummy text of the printing and typesetting industry. 
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and scrambled it to make a type
-                            specimen book. It has survived not only five centuries, but also the leap into
-                            electronic typesetting, remaining essentially</p>
+                        <p>Director screens in Callsheets offer a complete toolkit for efficient production management. 
+                            From scheduling and scene breakdowns to communication and call sheet distribution,
+                             directors have everything they need for seamless collaboration and successful productions.</p>
                      </div>
            
             </div>          

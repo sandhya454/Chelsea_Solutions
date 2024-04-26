@@ -21,6 +21,7 @@
 .HeroContainer .HeroContent .Content .Circle_Vector{
     position: absolute;
     right: 49%;
+    z-index: -5;
 }
 .HeroContainer .HeroContent .Content .Triangle_Vector{
     position: absolute;
@@ -28,12 +29,16 @@
     right: 50%;
 }
 .HeroContainer .HeroContent .Content h2{
-    font-size: 3.5vw;
+    font-size: 2.6rem;
     line-height: 130%;
     width: 100%;
+    font-weight: 650;
+}
+.HeroContainer .HeroContent .Content h2 span{
+    color: #3A80C8;
 }
 .HeroContainer .HeroContent .Content p{
-    font-size:1.6vw;
+    font-size:1.2rem;
     font-weight: 500;
     line-height: 150%;
 }

@@ -53,15 +53,14 @@ function Explain() {
             </div>
             <div className='ExplanationContent'>
                 <div className=''>
-                        <h3>THE APP SIMPLES</h3> 
+                        <h3>THE APP SIMPLIFIES</h3> 
                         <h2>The Most Effective App for Your Future Projects</h2>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa ntium doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
                         <ul>
-                            <li> <div className='arrow'><Icon icon="fa6-regular:circle-dot" className='icon'/></div> <div>We completed 500+ client’s projects</div> </li>
-                            <li> <div className='arrow'><Icon icon="fa6-regular:circle-dot" className='icon'/></div> <div>We completed 500+ client’s projects</div> </li>                                                    
-                            <li> <div className='arrow'><Icon icon="fa6-regular:circle-dot" className='icon'/></div> <div>We completed 500+ client’s projects</div> </li> 
-                            <li> <div className='arrow'><Icon icon="fa6-regular:circle-dot" className='icon'/></div> <div>We completed 500+ client’s projects</div> </li>                                                    
-                            <li> <div className='arrow'><Icon icon="fa6-regular:circle-dot" className='icon'/></div> <div>We completed 500+ client’s projects</div> </li>                             
+                            <li> <div className='arrow'><Icon icon="fa6-regular:circle-dot" className='icon'/></div> <div>Organize auditions, rehearsals, and shoots efficiently.</div> </li>
+                            <li> <div className='arrow'><Icon icon="fa6-regular:circle-dot" className='icon'/></div> <div>Highlight awards, past work, and accolades.</div> </li>                                                    
+                             <li> <div className='arrow'><Icon icon="fa6-regular:circle-dot" className='icon'/></div> <div>Coordinate with agents, managers, and teams seamlessly.</div> </li> 
+                            <li> <div className='arrow'><Icon icon="fa6-regular:circle-dot" className='icon'/></div> <div>Stay informed with customizable reminders and alerts.</div> </li>                                                    
+                            <li> <div className='arrow'><Icon icon="fa6-regular:circle-dot" className='icon'/></div> <div> Easy navigation and intuitive design for professionals.</div> </li>                             
                             </ul>
                 </div>
                
