@@ -40,6 +40,7 @@ function Navbar() {
         </div> 
     </div>
     <div className='NavMobile'>
+    
     </div>        
    </div>
   )
