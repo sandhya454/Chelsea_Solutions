@@ -1,19 +1,39 @@
 .HeroContainer{
     width: 100%;
     position: relative;
-} 
-.HeroContainer .HeroContent{
     display: flex;
-    margin-top: 10%;
-
-}
-.HeroContainer .HeroContent .Content{
-    width: 70%;
-    box-sizing: border-box;
-    margin-left: 7%;
+    justify-content: center;
+    
     
 }
-.HeroContainer .HeroContent .Content .Pyramid_Vector{
+.HeroContainer .HeroBg{
+    width: 100%;
+    position: relative;
+   
+    
+}
+
+
+.HeroContainer .HeroContent{
+   
+    display: flex;
+    position: absolute;
+    top:10%;
+    margin-left: 5%;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+  
+
+}
+
+.HeroContainer .HeroContent .Content{
+    width: 80%;
+}
+
+/* .HeroContainer .HeroContent .Content .Pyramid_Vector{
     position: absolute;
     left: 0%;
     top: -15%;
@@ -27,11 +47,10 @@
     position: absolute;
     bottom: -3%;
     right: 50%;
-}
+} */
 .HeroContainer .HeroContent .Content h2{
     font-size: 2.6rem;
-    line-height: 130%;
-    width: 100%;
+    line-height: 1.6; 
     font-weight: 650;
 }
 .HeroContainer .HeroContent .Content h2 span{
@@ -40,23 +59,22 @@
 .HeroContainer .HeroContent .Content p{
     font-size:1.2rem;
     font-weight: 500;
-    line-height: 150%;
+    line-height: 1.5;
 }
 .HeroContainer .HeroContent .Content img{
-    margin-left: 4%;
-    box-sizing: border-box;
-    margin-top: 5%;
+    margin-left: 1%;
 }
 .HeroContainer .HeroContent .HeroImg{
-    width: 80%;
+    width: 100%;
 }
 
 .HeroContainer .HeroContent .HeroImg .Mobiles{
-    position: absolute;
-    width: 49%;
-    z-index: 1;
+  
+    width: 100%;
+    margin:10% 5%;
+  
 }
-.HeroContainer .HeroContent .HeroImg .White_Circle{
+/* .HeroContainer .HeroContent .HeroImg .White_Circle{
     position: absolute;
     width: 23%;
     top: -27%;
@@ -73,4 +91,4 @@
    left: 45%;
    top: -30%;
    width:35%;
-}
+} */
