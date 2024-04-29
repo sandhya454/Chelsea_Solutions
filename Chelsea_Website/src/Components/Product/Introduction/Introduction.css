@@ -1,7 +1,7 @@
 .IntroductionPage{
     width: 100%;
     position: relative;
-    height: 50vw;
+    /* height: 50vw; */
     margin-bottom: 10%;
 }
 .IntroductionPage .BackgroundImage{
@@ -14,6 +14,8 @@
     box-sizing: border-box;
     justify-content: space-between;
     box-sizing: border-box;
+    /* position: absolute;
+    z-index: 30; */
    
 }
 .IntroductionPage .IntroductionOverview .MobileScreen{
@@ -31,7 +33,7 @@
     left: 20%;
     z-index: 20;
 }
-.IntroductionPage .IntroductionOverview .MobileScreen .Screen1{
+/* .IntroductionPage .IntroductionOverview .MobileScreen .Screen1{
     top: 45%;
     left: 36%;
     z-index: 15;
@@ -41,7 +43,7 @@
     top: 48%;
     left: 12%;
     width: 45%
-}
+} */
 .IntroductionPage .IntroductionOverview .IntroductionContent{
     width: 45%;
     box-sizing: border-box;
@@ -57,7 +59,7 @@
     font-size: 2.3rem;
     color: white;
     line-height: 150%;
-    font-weight: 600;
+    font-weight: 600; 
     margin-top: 0%;
 }
 .IntroductionPage .IntroductionOverview .IntroductionContent .Content p{

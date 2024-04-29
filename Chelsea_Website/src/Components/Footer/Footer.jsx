@@ -45,7 +45,7 @@ function Footer() {
                     solutions, harnessing the power of cloud computing, and exploring the depths of data science.</p>
             </div>
             <div className='Useful'>              
-                <ul>
+                <ul> 
                     <li> <h3>Useful Links</h3></li>
                     <li>Download App</li>
                     <li>Registration</li>

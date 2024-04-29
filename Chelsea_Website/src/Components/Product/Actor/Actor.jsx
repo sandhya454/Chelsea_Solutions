@@ -1,9 +1,9 @@
 import React from 'react';
 import './Actor.css';
-import ActorOne from '../../../assets/Images/Actors/ActorOne.png';
+import ActorOne from '../../../assets/Images/Actors/Actor_Screen.png';
 import ActorTwo from '../../../assets/Images/Actors/ActorTwo.png';
 import ActorThree from '../../../assets/Images/Actors/ActorThree.png';
-import DirectorOne from '../../../assets/Images/Actors/DirectorOne.png';
+import DirectorOne from '../../../assets/Images/Actors/Director_Screen.png';
 import DirectorTwo from '../../../assets/Images/Actors/DirectorTwo.png';
 import DirectorThree from '../../../assets/Images/Actors/DirectorThree.png';
 function Actor() {
@@ -21,18 +21,19 @@ function Actor() {
                 </div>
             </div>
             <div className='Images'>
-                <img src={ActorOne} alt="ActorOne" className='ActorOne' />
+                {/* <img src={ActorOne} alt="ActorOne" className='ActorOne' />
                 <img src={ActorTwo} alt="ActorTwo" className='ActorTwo' />
-                <img src={ActorThree} alt="ActorThree" className='ActorThree' />
+                <img src={ActorThree} alt="ActorThree" className='ActorThree' /> */}
+                <img src={ActorOne} alt="ActorOne" className='ActorOne' />
             </div>
             </div>
         </div>
         <div className='DirectorScreen'>
-          
+                <div className='Directors'>
                 <div className='Images'>
-                    <img src={DirectorOne} alt="DirectorOne" className='DirectorOne' />
-                    <img src={DirectorTwo} alt="DirectorTwo" className='DirectorTwo' />
-                    <img src={DirectorThree} alt="DirectorThree" className='DirectorThree' />
+                    <img src={DirectorOne} alt="DirectorOne" className='DirectorOne' width={600} />
+                    {/* <img src={DirectorTwo} alt="DirectorTwo" className='DirectorTwo' />
+                    <img src={DirectorThree} alt="DirectorThree" className='DirectorThree' /> */}
                 </div>           
 
            <div className='Content'>           
@@ -43,6 +44,7 @@ function Actor() {
                              directors have everything they need for seamless collaboration and successful productions.</p>
                      </div>
            
+            </div>
             </div>          
            
         </div>

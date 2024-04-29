@@ -11,7 +11,7 @@
   
 }
 .FeaturesCont .FeaturesBgImage .FeaturesImage{
-    width: 100%;
+    /* width: 100%; */
     position: absolute;
     z-index: 10;
     height: 100%;
@@ -20,82 +20,79 @@
     width: 100%;  
     position: absolute;
     top: 0%;
-    z-index: 16;height: 100%;
+    z-index: 16;
     display: flex;
     justify-content: space-around;
-    padding: 1%;
-    height: 100%;
-    margin-top: 2%;
+
 }
 .FeaturesCont .FeaturesExpalanation .Designs{
-    width: 70%;
     color: white;
     box-sizing: border-box;
     margin-top: -5%;
-    position: relative;
-    height: 100%; 
     padding: 5%;
+    display: flex;
+    flex-direction: column;
  
 }
 .FeaturesCont .FeaturesExpalanation .Designs .FeaturesMobile{
-    width: 90%;
     position: absolute;
-    top: 30%;
-    height: 70%;
-    right: 5%;
+    top: 50%;
+    right: 2%;
+    width: 30%;
    
 }
 .FeaturesCont .FeaturesExpalanation .Designs div .FeatureHeading{
     display: flex;
-    width: 120%;
+    width: auto;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 .FeaturesCont .FeaturesExpalanation .Designs div .FeatureHeading .FeatureNumber{
-    width: 18%;
+    width: 10%;
     box-sizing: border-box;
     color: #3A80C8;
-    border-radius: 110%;
+    border-radius: 50%;
     text-align: center;
     padding: 1%;
     border: 1px dashed black;
 }
 .FeaturesCont .FeaturesExpalanation .Designs div .FeatureHeading .FeatureNumber div{
     width: 100%;
-    height: 3vw;
-    border-radius: 110%;
-    padding: 10%;
+    /* height: auto; */
+    border-radius: 50%;
+    padding: 20%;
+    margin: 5%;
     background-color:white;
     box-sizing: border-box;
 }
 .FeaturesCont .FeaturesExpalanation .Designs div .FeatureHeading .FeatureNumber div .Number{
-    font-size: 1.6rem;   
+    font-size: 1.3em;   
     box-sizing: border-box;
     font-weight: 600;
-    margin-top: -10%;
-    width: 100%;
-    height: 120%;
     color: black;
+    /* padding: 2%; */
+    margin: 3%;
     border-radius: 1vw;
 }
 .FeaturesCont .FeaturesExpalanation .Designs h2{
-    width: 130%;
+
     text-align: center;
     line-height: 170%;
     margin-top: 25%;
     font-size: 2rem;
     margin-left: -23%;
- 
+  
    
 }
 .FeaturesCont .FeaturesExpalanation .Designs h3{
-    width: 120%;
-    font-size: 1.6rem;
+    /* width: 120%; */
+    font-size: 1.4rem;
+    font-weight: 550;
 }
 .FeaturesCont .FeaturesExpalanation .Designs p{
-    width: 90%;
+    width:auto;
     font-size: 0.9rem; 
     line-height: 150%;
     margin-top: 0%;
-    padding: 1%;
+    padding:0% 7%;
 }

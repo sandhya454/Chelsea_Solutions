@@ -1,7 +1,7 @@
 import React from 'react';
 import './Introduction.css';
 import BackgroundImage from '../../../assets/Images/Introduction/Bcakground_Vector.png';
-import Iphone from '../../../assets/Images/Introduction/Iphone.png';
+import Iphone from '../../../assets/Images/Introduction/Introduction_Mobile.png';
 import Screen1 from '../../../assets/Images/Introduction/Screen1.png';
 import Screen2 from '../../../assets/Images/Introduction/Screen2.png';
 import {Icon} from '@iconify/react';
@@ -12,11 +12,12 @@ function Introduction() {
         <img src={BackgroundImage} alt="BackgroundImage" className='BackgroundImage' />
         <div className='IntroductionOverview'>
                  <div className='MobileScreen'>
-                    <img src={Iphone} alt="IPhone" className='Iphone' />
+                    {/* <img src={Iphone} alt="IPhone" className='Iphone' />
                     <img src={Screen1} alt="Screen" className='Screen1' />
-                    <img src={Screen2} alt="Screen" className='Screen2' />
+                    <img src={Screen2} alt="Screen" className='Screen2' /> */}
+                    <img src={Iphone} alt="Iphone" className='Iphone' />
                  </div>
-                 <div className='IntroductionContent'>
+                 <div className='IntroductionContent'> 
                             <div className='Content'>
                                 <h3>CALLSHEETS</h3>
                                 <h2>Introducing Callsheets </h2>

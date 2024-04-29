@@ -4,12 +4,12 @@ import Cloud from '../../../assets/Images/Explain/Cloud.png';
 import hands from '../../../assets/Images/Explain/Hand.png';
 import Clock from '../../../assets/Images/Explain/Clock.png';
 import Globe from '../../../assets/Images/Explain/Globe.png';
-import Mobile from '../../../assets/Images/Explain/Phones.png';
-import BlueVector from '../../../assets/Images/Explain/Blue_Vector.png';
-import BackgroundVector from '../../../assets/Images/Explain/Background_Vector.png';
-import BlueTriangle from '../../../assets/Images/Explain/Blue_Triangle.png';
-import TriangleWave from '../../../assets/Images/Explain/Triangle_Wave.png';
-import GroupCricle from '../../../assets/Images/Explain/Group_Circle.png';
+import Mobile from '../../../assets/Images/Explain/Explain.png';
+// import BlueVector from '../../../assets/Images/Explain/Blue_Vector.png';
+// import BackgroundVector from '../../../assets/Images/Explain/Background_Vector.png';
+// import BlueTriangle from '../../../assets/Images/Explain/Blue_Triangle.png';
+// import TriangleWave from '../../../assets/Images/Explain/Triangle_Wave.png';
+// import GroupCricle from '../../../assets/Images/Explain/Group_Circle.png';
 import { Icon } from '@iconify/react';
 
 
@@ -43,16 +43,16 @@ function Explain() {
         <div className='AppExplanation'>
             <div className='MobileImage'>
                 <img src={Mobile} alt="Mobile" className='Mobile'/>
-                <img src={BackgroundVector} alt="BackgroundVector" className='Background-Vector' />
+                {/* <img src={BackgroundVector} alt="BackgroundVector" className='Background-Vector' />
                 <img src={BlueVector} alt="BlueVector" className='BlueVector' />
                 <img src={BlueTriangle} alt="BlueTriangle" className='BlueTriangle'/>
                 <img src={TriangleWave} alt="TriangleWave" className='TriangleWave' />
-                <img src={GroupCricle} alt="GroupCircle" className='GroupCircle' />
+                <img src={GroupCricle} alt="GroupCircle" className='GroupCircle' /> */}
                
 
             </div>
             <div className='ExplanationContent'>
-                <div className=''>
+                <div className=''> 
                         <h3>THE APP SIMPLIFIES</h3> 
                         <h2>The Most Effective App for Your Future Projects</h2>
                         <ul>

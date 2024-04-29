@@ -32,14 +32,14 @@ function Form() {
                     </div>
                 </form>
             </div>
-
+ 
             <div className='LocationDetails'>
                 <h2>Frequently Asked Questions</h2>
                 <div className='Details'>
                     <div className='icons'><Icon icon="ion:location-sharp" className='icon' /></div>
                     <div className='Content'>
                         <h3>Location</h3>
-                        <p>We have several powerful plans to showcase your business and get discovered.</p>
+                        <p>C CUBE BUILDING 1ST FLOOR PLOT NO 67, ROAD NO 9A,JUBLIEE HILLS, Hyderabad, Telangana 500033</p>
                     </div>
                 </div>
                 <div className='Details'>

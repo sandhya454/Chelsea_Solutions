@@ -1,25 +1,21 @@
 .ScreenExplanation{
     position: relative;
     margin-top: -18.5%;
-    width: 100%;
     box-sizing: border-box;
 }
 .ScreenExplanation .ActorScreen{
     display: flex;
-    justify-content: space-around;
-    width: 90%;
-    margin-left: 5%;
-    height: 50vw;
+    justify-content: space-between;
+    margin: 0% 5% 0% 5%;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
+    padding: 10% 2%;
     
 }
 .ScreenExplanation .ActorScreen .Actors{
     margin-top: 10%;
-    padding-left: 3%;
 }
 .ScreenExplanation .ActorScreen .Content{
-    width: 70%;
   padding-right:20%
 }
 .ScreenExplanation .ActorScreen .Content .Text{
@@ -27,7 +23,6 @@
 }
 .ScreenExplanation .ActorScreen .Content .Text h2{
     font-size: 2.3rem;
-    width: 100%;
     font-weight: 600;
 }
 .ScreenExplanation .ActorScreen .Content .Text p{
@@ -41,13 +36,19 @@
 }
 .ScreenExplanation .ActorScreen .Images img{
     position: absolute;
+        /* margin-bottom: -10%; */
+box-sizing: border-box;
+    /* background-color: red; */
+    z-index: 100;
 }
 .ScreenExplanation .ActorScreen .Images .ActorOne{
-    right: 7%;
+    right: 2%;
     z-index: -3;
-    top: 12%;
-}
+    top: 15%;
+    width: 40%;
 
+}
+/* 
 .ScreenExplanation .ActorScreen .Images .ActorTwo{
     right: 33%;
     top: 13%;
@@ -57,37 +58,39 @@
     z-index: 6;
     right: 20%;
     top: 10%;
-} 
+}  */
 .ScreenExplanation .DirectorScreen{
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    height: 48vw;
-    width: 95%;
+    /* display: flex;
+    justify-content: space-between; */
+ 
+    /* height: 48vw; */
+    /* width: 95%; */
+    margin-right: 5%;
     border-right: 2px solid black;
 }
-.ScreenExplanation .DirectorScreen .Images{
-    position: relative;
-    top: 10%;
-    left: -3%;
+.ScreenExplanation .DirectorScreen .Directors{
+    display: flex;
+    justify-content: space-between;
+    padding: 10% 2%;
+}
+.ScreenExplanation .DirectorScreen .Directors .Images{
+    /* position: relative; */
+    width: 50%;
+    /* width: 100%; */
+    /* top: 10%;
+    left: -3%; */
 
 }
-.ScreenExplanation .DirectorScreen .Images .DirectorOne{
+.ScreenExplanation .DirectorScreen .Ditectors .Images .DirectorOne{
     position: absolute;
-    left: 190% ;
-}
-.ScreenExplanation .DirectorScreen .Images .DirectorTwo{
-    position: absolute;
-    left: 110%;
-    z-index: 3;
-}
-.ScreenExplanation .DirectorScreen .Images .DirectorThree{
-    position: relative;
-    left: 30%;
-    z-index: 30;
+    left: 10% ;
+    top: 0%;
+
 }
 .ScreenExplanation .DirectorScreen .Content{
     width: 45%;
+    padding-left:5%;
+    box-sizing: border-box;
 }
 .ScreenExplanation .DirectorScreen .Content .Text{
     width: 80%;

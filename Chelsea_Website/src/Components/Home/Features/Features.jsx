@@ -30,7 +30,7 @@ function Features() {
 
                 </div>
             </div>
-            <div className='Designs'>
+            <div className='Designs'> 
             <div>
                    <div className='FeatureHeading'> <h3>User Friendly</h3>
                    <div className='FeatureNumber'><div ><p className='Number'>3</p></div> </div>

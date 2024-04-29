@@ -1,8 +1,7 @@
 .FooterCont{
     width: 100%;
     position: relative;
-    /* padding: 0% 5%; */
-    height: 60vw;
+    height: auto;
     box-sizing: border-box;
     border-bottom: 2px dashed black;
 
@@ -10,7 +9,7 @@
 .FooterCont .FooterContainer{
     border-radius: 2vw;
     background: linear-gradient(100.56deg, #3A80C8 31.28%, #3D8DDE 88.11%);
-    height: 50%;
+    height: auto;
     margin: 4%;
     display: flex;
     box-sizing: border-box;
@@ -24,6 +23,7 @@
 .FooterCont .FooterContainer .LeftCircle{
     position: absolute;
     bottom: 0%;
+    left: 0%;
 }
 .FooterCont .FooterContainer .SolidCircle{
     position: absolute;
@@ -41,20 +41,20 @@
 }
 
 .FooterCont .FooterContainer .FooterImages .FooterImage{
-    position: absolute;
+    position: relative;
     top: 5%;
     left: 10%;
     width: 60%;
 }
 .FooterCont .FooterContainer .FooterContent{
-    width: 50%;
+    /* width: 50%; */
 
 }
 .FooterCont .FooterContainer .FooterContent .Content{
-    width: 90%;
+    /* width: 90%; */
 }
 .FooterCont .FooterContainer .FooterContent .Content h2{
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     line-height: 150%;
     color: white;
 }
@@ -69,10 +69,10 @@
 }
 
 .FooterCont .FooterItems{
-    height: 50%;
-    width: 100%;
+    /* height: 50%; */
+    /* width: 100%; */
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .FooterCont .FooterItems .FooterBg{
     position: absolute;
@@ -96,8 +96,12 @@
     font-size: 1.2rem;
 
 }
+.FooterCont .FooterItems .Useful{
+    margin-left: -5%;
+}
 .FooterCont .FooterItems .Useful ul{
-    width: 80%;
+    width: 90%;
+  
 } 
 .FooterCont .FooterItems .Useful ul li{
     list-style: none;
@@ -105,10 +109,7 @@
     margin-top: 15%;
     font-size: 1.1rem;
     cursor: pointer;
-    width: 120%;
-
-  
-    
+    width: 120%;  
  
 }
 .FooterCont .FooterItems .Useful ul li:hover{
