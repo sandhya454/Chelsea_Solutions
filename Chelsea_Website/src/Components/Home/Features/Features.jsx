@@ -28,7 +28,7 @@ function Features() {
                     <p>Streamline scheduling: Assign roles, scenes, and call times easily, 
                         ensuring everyone is prepared and on time.</p>
 
-                </div>
+                </div> 
             </div>
             <div className='Designs'> 
             <div>

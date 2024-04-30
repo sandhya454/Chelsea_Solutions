@@ -6,9 +6,9 @@ import Footer from './Footer/Footer'
 function Index() {
   return (
 <>
-        <Navbar/>
+        {/* <Navbar/> */}
         <Outlet/>
-        <Footer/>
+        {/* <Footer/> */}
 </>
   )
 }

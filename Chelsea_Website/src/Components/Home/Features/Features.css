@@ -38,8 +38,7 @@
     position: absolute;
     top: 50%;
     right: 2%;
-    width: 30%;
-   
+    width: 30%;   
 }
 .FeaturesCont .FeaturesExpalanation .Designs div .FeatureHeading{
     display: flex;
@@ -61,10 +60,15 @@
     justify-content: center;
 }
 .FeaturesCont .FeaturesExpalanation .Designs div .FeatureHeading .FeatureNumber div{
+<<<<<<< HEAD
     
    
 
     /* height: auto; */
+=======
+    width: 100%;
+    /* height: auto; */ 
+>>>>>>> 6e3ec7aebc32b5b101968e55342ee7a958c2f33d
     border-radius: 50%;
     width: 2.5vw;
     height: 2.5vw;
@@ -92,9 +96,7 @@
     line-height: 170%;
     margin-top: 25%;
     font-size: 2rem;
-    margin-left: -23%;
-  
-   
+    margin-left: -23%;   
 }
 .FeaturesCont .FeaturesExpalanation .Designs h3{
     /* width: 120%; */
@@ -107,4 +109,35 @@
     line-height: 150%;
     margin-top: 0%;
     padding:0% 7%;
+}
+@media screen  and (max-width:765px){
+    .FeaturesCont{
+        height: 190vh;
+        max-height: fit-content;
+    }
+    .FeaturesCont .FeaturesExpalanation{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #3A80C8;
+    }
+    .FeaturesCont .FeaturesExpalanation .Designs{
+        color: white;
+       
+    }
+    .FeaturesCont .FeaturesExpalanation .Designs div .FeatureHeading .FeatureNumber{
+        display: none;
+    }
+    .FeaturesCont .FeaturesBgImage{
+        display: none;
+    }
+    .FeaturesCont .FeaturesExpalanation .Designs h2{
+        font-size: 1.5rem;
+        text-align: center;
+        margin-left: 3%;
+    }
+    .FeaturesCont .FeaturesExpalanation .Designs .FeaturesMobile{
+        position: relative;
+        width: 70%;
+        left: 20%;
+    }
 }

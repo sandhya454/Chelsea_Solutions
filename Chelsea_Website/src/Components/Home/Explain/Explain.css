@@ -13,8 +13,7 @@
     box-sizing: border-box;
     height: 15vw;
 }
-.ExplanationCont .AppInstall div{
-  
+.ExplanationCont .AppInstall div{ 
     text-align: center;
     width: 20%;
     height: 1;
@@ -65,40 +64,7 @@
     top: -10%;
 
 }
-/* .ExplanationCont .AppExplanation .MobileImage .BlueVector{
-    position: absolute;
-    width: 120%;
-    top: 10%;
- 
-}
-.ExplanationCont .AppExplanation .MobileImage .Background-Vector{
-position: absolute;
-    width: 80%;
-    left: -15%;
-    top: -25%;
- 
-}
-.ExplanationCont .AppExplanation .MobileImage .GroupCircle{
-    position: absolute;
-    left: 80%;
-    top: 5%;
-    width: 7%;
-}
-.ExplanationCont .AppExplanation .MobileImage .BlueTriangle{
-    position: absolute;
-    top: -35%;
-    left: 70%;
-    width: 5%;
-}
-.ExplanationCont .AppExplanation .MobileImage .TriangleWave{
-    position: absolute;
-    top: 0%;
-    left: 30%;
-    z-index: -10;
-} */
 .ExplanationCont .AppExplanation .ExplanationContent{
-    /* width: 40%; */
-    /* margin-top: -10%; */
     margin-right: 6%;
     box-sizing: border-box;
     padding: 4%;
@@ -112,10 +78,7 @@ position: absolute;
 .ExplanationCont .AppExplanation .ExplanationContent h2{
     font-size: 2rem;
     font-weight: 600;
-    line-height:170%;
-
-  
-   
+    line-height:170%;  
 }
 .ExplanationCont .AppExplanation .ExplanationContent p{
 
@@ -151,5 +114,35 @@ position: absolute;
   
 
     
+}
+@media screen and (max-width: 768px) {
+    .ExplanationCont{
+        position: static;
+        margin-top: 60%;
+        height: 70vh;
+    }
+    .ExplanationCont .AppInstall{
+        /* flex-direction: column;
+        height: auto; */
+        display: none;
+    }
+    .ExplanationCont .AppInstall div h2{
+        margin-top:0% ;
+        font-size: 0.5rem;
+    }
+    .ExplanationCont .AppExplanation{
+        display: flex;
+        flex-direction: column-reverse;
+        position: static;
+    }
+    .ExplanationCont .AppExplanation .ExplanationContent h3{
+        font-size: 1rem;
+    }
+    .ExplanationCont .AppExplanation .ExplanationContent h2{
+        font-size: 1.2rem;
+    }
+    .ExplanationCont .AppExplanation .MobileImage{
+        width: 100%;
+    }
 }
 

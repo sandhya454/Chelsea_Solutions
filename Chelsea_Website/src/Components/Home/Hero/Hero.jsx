@@ -16,9 +16,7 @@ export const Hero = () => {
   return (
       <div className='HeroContainer'>
         <img src={HeroBg} className='HeroBg'/>
-        <div className='HeroContent'>
-          
-         
+        <div className='HeroContent'>         
           <div className='Content'>
             {/* <img src={pyramid} alt="pyramid" className='Pyramid_Vector' />
             <img src={circle} alt="circle" className='Circle_Vector'/>

@@ -38,7 +38,7 @@ function Explain() {
                 <img src={Globe} alt="Globe" className='Globe_Vector' />
                 <h2>100k</h2>
                 <p>Countries</p>
-            </div>
+            </div> 
         </div>
         <div className='AppExplanation'>
             <div className='MobileImage'>
