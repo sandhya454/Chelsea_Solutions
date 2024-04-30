@@ -7,7 +7,7 @@ function Index() {
   return (
 <>
         <Navbar/>
-        {/* <Outlet/> */}
+        <Outlet/>
         {/* <Footer/> */}
 </>
   )
