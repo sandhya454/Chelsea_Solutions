@@ -15,7 +15,7 @@ import HeroBg from '../../../assets/Images/Hero/hero_bg.png';
 export const Hero = () => { 
   return (
       <div className='HeroContainer'>
-        <img src={HeroBg} className='HeroBg'/>
+        {/* <img src={HeroBg} className='HeroBg'/> */}
         <div className='HeroContent'>         
           <div className='Content'>
             {/* <img src={pyramid} alt="pyramid" className='Pyramid_Vector' />

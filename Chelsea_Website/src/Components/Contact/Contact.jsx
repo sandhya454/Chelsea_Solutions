@@ -2,6 +2,7 @@ import React,{useEffect} from 'react'
 import Details from '../Product/Details/Details';
 import './Contact.css'
 import Form from '../Home/Form/Form';
+import { Icon } from '@iconify/react';
 
 function Contact() {
   useEffect(() => {
@@ -12,6 +13,8 @@ function Contact() {
         <Details page={'Contact Us'}/>
         <div className='ContactUsCont'>
         <Form/>
+       
+
         </div>
     </div>
   )

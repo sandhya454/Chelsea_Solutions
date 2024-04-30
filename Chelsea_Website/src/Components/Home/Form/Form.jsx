@@ -39,21 +39,25 @@ function Form() {
                     <div className='icons'><Icon icon="ion:location-sharp" className='icon' /></div>
                     <div className='Content'>
                         <h3>Location</h3>
-                        <p>C CUBE BUILDING 1ST FLOOR PLOT NO 67, ROAD NO 9A,JUBLIEE HILLS, Hyderabad, Telangana 500033</p>
+                       
+                        <p> Chelsea Solutions Pvt Ltd ,<br/>
+                        C CUBE BUILDING 1ST FLOOR PLOT NO 67, ROAD NO 9A,
+                            <br/>JUBLIEE HILLS, Hyderabad,
+                            <br/> Telangana 500033</p>
                     </div>
                 </div>
                 <div className='Details'>
                     <div className='icons'><Icon icon="mdi:phone" className='icon' /></div>
                     <div className='Content'>
                         <h3>Phone</h3>
-                        <p>919082598475,91827837574</p>
+                        <p>+91 9989448555</p>
                     </div>
                 </div>
                 <div className='Details'>
                     <div className='icons'><Icon icon="ic:baseline-mail" className='icon' /></div>
                     <div className='Content'>
                         <h3>Email</h3>
-                        <p>ramki@stepnext.com</p>
+                        <p>ramki@chelseaspl.com</p>
                     </div>
                 </div>
             </div>

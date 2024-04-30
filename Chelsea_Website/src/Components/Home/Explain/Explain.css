@@ -2,8 +2,9 @@
     margin-top: 5%;
     width: 100%;
     position: relative;
-    height: 80vw;
+    
 }
+
 .ExplanationCont .AppInstall{
     position: relative;
     background-color: #3A80C8;
@@ -11,8 +12,11 @@
     justify-content: space-around;
      align-items: center;
     box-sizing: border-box;
-    height: 15vw;
+    padding:2% 5%;
+   
 }
+
+
 .ExplanationCont .AppInstall div{ 
     text-align: center;
     width: 20%;
@@ -22,7 +26,7 @@
 .ExplanationCont .AppInstall div img{
     width: 30%;
     height: 50%;
-    /* object-fit: contain; */
+    
     margin: 0%;
 }
 .ExplanationCont .AppInstall div h2{
@@ -43,36 +47,34 @@
     margin-top: 2%;
     display: flex;
     justify-content: space-between;
-    height: 43vw;
-    align-items: center;
+    align-items: start;
     box-sizing: border-box;
     position: relative;
-    /* background-color: red; */
+   
+   
   
 } 
 .ExplanationCont .AppExplanation .MobileImage{
-    width: 65%;
-    height: 50%;
-    position: relative;
-    margin-left: 5%;
+    width: 50%;
+   
+    
+   
 }
 .ExplanationCont .AppExplanation .MobileImage .Mobile{
-    position: absolute;
-    width: 100%;
-    left: -4%;
-    z-index: 10;
-    top: -10%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 
 }
 .ExplanationCont .AppExplanation .ExplanationContent{
-    margin-right: 6%;
+ 
     box-sizing: border-box;
-    padding: 4%;
+    padding: 5%;
 }
 .ExplanationCont .AppExplanation .ExplanationContent h3{
     color: #3A80C8;
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 
 }
 .ExplanationCont .AppExplanation .ExplanationContent h2{
@@ -84,25 +86,27 @@
 
     line-height: 170%;
     font-weight: 500;
-    padding-right: 5%;
     font-weight: 1.3rem;
   
 
 }
 .ExplanationCont .AppExplanation .ExplanationContent ul{
     box-sizing: border-box;
-    /* border-left: 3px dashed black; */
+    list-style:none;
+    margin: 0;
+    padding: 0;
+   
   
 }
 .ExplanationCont .AppExplanation .ExplanationContent ul li{
     list-style: none;
     line-height: 250%;
-    margin-left: -11%; 
     box-sizing: border-box;
     display: flex;
+   
     z-index: 10;
     font-weight: 500; 
-    font-size: 1rem;
+    font-size: 1.1rem;
 
 }
 .ExplanationCont .AppExplanation .ExplanationContent ul li .arrow{
@@ -116,33 +120,26 @@
     
 }
 @media screen and (max-width: 768px) {
-    .ExplanationCont{
-        position: static;
-        margin-top: 60%;
-        height: 70vh;
+    .AppExplanation{
+        flex-direction: column;
     }
-    .ExplanationCont .AppInstall{
-        /* flex-direction: column;
-        height: auto; */
-        display: none;
+    .AppExplanation .MobileImage{
+      
+       width: 100% !important;
     }
-    .ExplanationCont .AppInstall div h2{
-        margin-top:0% ;
-        font-size: 0.5rem;
+    .ExplanationCont .AppExplanation .ExplanationContent h2 {
+        line-height: 1.5;
     }
-    .ExplanationCont .AppExplanation{
-        display: flex;
-        flex-direction: column-reverse;
-        position: static;
-    }
-    .ExplanationCont .AppExplanation .ExplanationContent h3{
-        font-size: 1rem;
-    }
-    .ExplanationCont .AppExplanation .ExplanationContent h2{
-        font-size: 1.2rem;
-    }
-    .ExplanationCont .AppExplanation .MobileImage{
+    .ExplanationCont .AppExplanation .ExplanationContent ul li {
+        line-height: 1.8;
+        margin-top: 5%;
+       
         width: 100%;
     }
+    .ExplanationCont .AppExplanation .ExplanationContent ul li .arrow{
+        padding-right: 2%;
+    }
+  
+  
 }
-
+ 

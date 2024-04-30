@@ -52,7 +52,7 @@ function Explain() {
 
             </div>
             <div className='ExplanationContent'>
-                <div className=''> 
+                <div className='ExplanationContent1'> 
                         <h3>THE APP SIMPLIFIES</h3> 
                         <h2>The Most Effective App for Your Future Projects</h2>
                         <ul>
