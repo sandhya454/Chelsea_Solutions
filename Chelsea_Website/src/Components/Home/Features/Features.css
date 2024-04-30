@@ -95,7 +95,7 @@
 }
 @media screen  and (max-width:765px){
     .FeaturesCont{
-        height: 190vh;
+        /* height: 190vh; */
         max-height: fit-content;
     }
     .FeaturesCont .FeaturesExpalanation{

@@ -116,7 +116,7 @@
   }
   @media screen  and (max-width:765px){
     .MobileScreens{
-      height: 110vh;
+      /* height: 110vh; */
       /* margin-top: 10%; */
     }
     .MobileScreens .MobileScreenView .ScreenContent h2{

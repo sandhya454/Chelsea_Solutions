@@ -24,6 +24,11 @@
     width: 30%;
     height: 98%;
 }
+.NavbarMainCont .NavDesktop .NavImg .hamburger{
+    display: none;
+    color: #1B6FC5;
+    font-size: 2rem;
+}
 .NavbarMainCont .NavDesktop .NavImg .NavLogo{
     width: 25%; 
     margin-left: 9%; 
@@ -48,3 +53,107 @@
     color: #1B6FC5;
     cursor: pointer;
 }
+.mobile_card{
+    display: none;
+}
+.mobile_cards{
+    display: block;
+    position:absolute;
+    top: 0%;
+    width: 100% !important;   
+    border: 2px solid white;
+    height: 100%;
+    z-index: 2000;
+    /* padding: 2vw; */
+   
+   
+   }
+    .mobile_cards .card{
+        background-color:white;     
+        /* position: absolute; */
+        width:99% !important;
+        height: 100vh;
+
+        border-radius:0.5vw;
+        position: relative;
+        top:0%;
+        /* padding: 2%; */
+   }
+  .mobile_cards .card .itemss .logos{  
+   width: 30%;
+   margin-top: 2%;
+   }
+   .hamburger{
+    /* margin-left:20%; */
+   }
+   .itemss{
+    display: flex;
+    width: 90%;
+    margin-left: 2.5%; 
+    justify-content: space-between;
+    align-items: center;
+   }
+   .mobile_cards .card .itemss .cross{
+    font-size: 2rem;
+    color:#1B6FC5;
+   
+   }
+   .mobile_cards .card .lists .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    width: 80%;
+
+
+   }
+ 
+   .mobile_cards .card .lists .items .arrow{
+    color:#1B6FC5;
+    font-size:2rem;
+   }
+   .mobile_cards .card  .lists .items a{
+    color: #1B6FC5;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-left: 
+
+   }
+   .mobile_cards .card  .lists .items .mb_icon{
+    color:#1B6FC5;
+    box-sizing: border-box;
+    margin-top: 3%;
+    font-size: 1.7rem;
+    margin-right:1vw;
+   }
+   @media screen and (max-width:820px) {
+    .mobile_cards .card{
+        width: 95%;
+    }
+
+   }
+   @media screen and (max-width: 768px){
+    .NavbarMainCont{
+        width: 100%;
+        height: auto;
+    }
+    .NavbarMainCont .NavDesktop .NavItems{
+        display: none;
+    }
+    .NavbarMainCont .NavDesktop .NavImg .hamburger{
+        display: block;
+        margin-top: 5%;
+    }
+    .NavbarMainCont .NavDesktop .NavImg{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .NavbarMainCont .NavDesktop .NavImg .NavLogo{
+        width: 20%;
+        margin-top: 2%;
+        margin-left: 0%;
+    }
+ 
+   }

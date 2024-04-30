@@ -46,6 +46,7 @@
         /* flex-direction: column; */
         height: 100vh;
         position: relative;
+        overflow: hidden;
     
     }
     .HeroContainer .HeroContent .Content h2{
@@ -57,21 +58,22 @@
         text-align: center;
     }
     .HeroContainer .HeroContent{
-        display: block;
+        display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+  
     }
     .HeroContainer .HeroContent .Content img{
         width: 30%;
     }
     .HeroContainer .HeroContent .HeroImg{
         width: 100%;
-        position: static;
+        overflow: hidden;
+        flex: 0.5;
     }
     .HeroContainer .HeroContent .HeroImg .Mobiles{
         margin: 3% 5%;
-        position:static;
+    
     }
 
 }
