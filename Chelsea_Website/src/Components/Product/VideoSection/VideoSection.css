@@ -2,6 +2,7 @@
     width: 100%;
     position: relative;
     height: 50vw;
+    padding-bottom: 5%;
 }
 .VideoSection .VideoBackground{
     position: absolute;
@@ -14,14 +15,14 @@
     color: white;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     box-sizing: border-box;
 }
 .VideoSection .Content h2{
     font-size: 3rem;
-    width: 60%;
-    margin-left: 20%;
-    line-height: 150%;
+   margin: auto;
+    width: 80%;
+    line-height: 1.5;
 
 }
 .VideoSection .Content p{
