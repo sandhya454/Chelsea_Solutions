@@ -60,18 +60,20 @@
     justify-content: center;
 }
 .FeaturesCont .FeaturesExpalanation .Designs div .FeatureHeading .FeatureNumber div{
-<<<<<<< HEAD
+
     
    
 
     /* height: auto; */
-=======
+
     width: 100%;
-    /* height: auto; */ 
->>>>>>> 6e3ec7aebc32b5b101968e55342ee7a958c2f33d
+     height: auto; 
     border-radius: 50%;
     width: 2.5vw;
     height: 2.5vw;
+   
+   
+  
     
    
    
@@ -85,7 +87,7 @@
     box-sizing: border-box;
     font-weight: 600;
     color: black;
-    margin-top: 5%;
+    margin-top:10%;
     /* padding: 2%; */
     
   
@@ -112,7 +114,7 @@
 }
 @media screen  and (max-width:765px){
     .FeaturesCont{
-        height: 190vh;
+       
         max-height: fit-content;
     }
     .FeaturesCont .FeaturesExpalanation{
