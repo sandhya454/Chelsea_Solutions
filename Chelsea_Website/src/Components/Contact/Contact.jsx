@@ -11,7 +11,6 @@ function Contact() {
     <div className='ContactMainCont'>
         <Details page={'Contact Us'}/>
         <div className='ContactUsCont'>
-
         <Form/>
         </div>
     </div>
