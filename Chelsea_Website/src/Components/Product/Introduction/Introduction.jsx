@@ -9,7 +9,7 @@ import {Icon} from '@iconify/react';
 function Introduction() {
   return (
     <div className='IntroductionPage'>
-        <img src={BackgroundImage} alt="BackgroundImage" className='BackgroundImage' />
+        {/* <img src={BackgroundImage} alt="BackgroundImage" className='BackgroundImage' /> */}
         <div className='IntroductionOverview'>
                  <div className='MobileScreen'>
                     {/* <img src={Iphone} alt="IPhone" className='Iphone' />

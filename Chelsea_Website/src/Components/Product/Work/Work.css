@@ -1,24 +1,27 @@
 .WorkProcess{
     width: 100%;
-    position: relative;
+    /* position: relative; */
     margin-bottom: 10%;
+    background-image: url('../../../assets/Images/Work/Background_Image.png');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
 }
-.WorkProcess .BackgroundImage{
+/* .WorkProcess .BackgroundImage{
     position: absolute;
     z-index: -10;
-}
+} */
 .WorkProcess .Explanation{
     display: flex;
     justify-content: space-between;
     position: relative;
 } 
 .WorkProcess .Explanation .MobileImages{
-    width: 50%;
-    position: relative;
+    /* width: 50%;
+    position: relative; */
 }
 .WorkProcess .Explanation .MobileImages img{
     width: 100%;
-    position: absolute;
+    position:relative;
     top: 23%;
     left: 5%;
 }
@@ -67,4 +70,31 @@
     line-height: 150%;
     font-weight: 500;
     margin-top: -3%;
+}
+@media screen and (max-width:768px) {
+    .WorkProcess{
+        background-image: cover;
+    }
+    .WorkProcess .Explanation{
+        flex-direction: column;
+    }
+    .WorkProcess .Explanation .Content{
+        width: 100%;
+        /* padding: 1%; */
+    }
+    .WorkProcess .Explanation .Content .Question p{
+        width: 95%;
+        text-align: justify;
+        /* margin: 0% 2%; */
+    }
+    .WorkProcess .Explanation .Content .Card .SectionOne{
+        grid-template-columns: auto;
+        text-align: center;
+    }
+    .WorkProcess .Explanation .Content .Card .SectionOne .SubSections  p{
+        text-align: justify;
+    }
+    .WorkProcess .Explanation .Content .Card .SectionOne{
+        width: 90%;
+    }
 }

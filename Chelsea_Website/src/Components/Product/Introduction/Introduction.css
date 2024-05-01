@@ -1,13 +1,16 @@
 .IntroductionPage{
     width: 100%;
-    position: relative;
+    /* position: relative; */
+    background-repeat: no-repeat;
     /* height: 50vw; */
-    margin-bottom: 10%;
+    padding: 2% 0%;
+    margin-bottom: 10%; 
+    background-image: url('../../../assets/Images/Introduction/Bcakground_Vector.png');
 }
-.IntroductionPage .BackgroundImage{
+/* .IntroductionPage .BackgroundImage{
     position: absolute;
     z-index: -4;
-}
+} */
 .IntroductionPage .IntroductionOverview{
     width: 100%;
     display: flex;
@@ -19,20 +22,24 @@
    
 }
 .IntroductionPage .IntroductionOverview .MobileScreen{
-    width: 40%;
-    position: relative;
+    width: 50%;
+    /* position: relative; */
     box-sizing: border-box;
-    margin-top: -20%;
+    /* margin-top: -20%; */
 }
 .IntroductionPage .IntroductionOverview .MobileScreen img{
-    position: absolute;  
+position: relative;
+    margin-top: 20%;
+    /* width: 110%; */
+    width: 90%;
+    left: 15%;
 }
-.IntroductionPage .IntroductionOverview .MobileScreen .Iphone{
+/* .IntroductionPage .IntroductionOverview .MobileScreen .Iphone{
     width: 110%;
-    top: 39%;
+    top: 25%;
     left: 20%;
     z-index: 20;
-}
+} */
 /* .IntroductionPage .IntroductionOverview .MobileScreen .Screen1{
     top: 45%;
     left: 36%;
@@ -69,17 +76,22 @@
     font-size: 1.2rem;
     margin-top: -5%;
     font-weight: 400;
+ 
 }
 .IntroductionPage .IntroductionOverview .IntroductionContent .Content h4{
     color: white;
     font-size: 1.3rem;
     font-weight: 500;
 } 
+.IntroductionPage .IntroductionOverview .IntroductionContent .Content ul {
+    padding-bottom: 5%;
+}
 .IntroductionPage .IntroductionOverview .IntroductionContent .Content ul li{
     display: flex;
     justify-content:flex-start;
     align-items: center;
     line-height: 200%;
+   
 }
 .IntroductionPage .IntroductionOverview .IntroductionContent .Content ul li div{
     font-size: 1.3rem;
@@ -87,5 +99,41 @@
 }
 .IntroductionPage .IntroductionOverview .IntroductionContent .Content ul li .Icons{
     font-size: 1.8rem;
+}
+@media screen and (max-width:768px) {
+    .IntroductionPage{
+        background-image: none;
+        background-color: #3C88D5;
+    }
+    .IntroductionPage .IntroductionOverview{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .IntroductionPage .IntroductionOverview .MobileScreen{
+        width: 100%;
+    }
+    .IntroductionPage .IntroductionOverview .MobileScreen img{
+        width: 80%;
+    }
+    .IntroductionPage .IntroductionOverview .IntroductionContent{
+        width: 100%;
+        text-align: justify;
+    }
+    .IntroductionPage .IntroductionOverview .IntroductionContent .Content h3{
+        width: 100%;
+        text-align: center;
+       
+    }
+    .IntroductionPage .IntroductionOverview .IntroductionContent .Content h2{
+        text-align: center;
+        width: 100%;
+        font-size: 1.9rem;
+    }
+
+    .IntroductionPage .IntroductionOverview .IntroductionContent .Content p{
+        padding: 3%;
+    }
+    
 }
 

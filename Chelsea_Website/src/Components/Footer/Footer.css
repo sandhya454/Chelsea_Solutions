@@ -4,24 +4,29 @@
     height: auto;
     box-sizing: border-box;
     border-bottom: 2px dashed black;
+    margin-top: -5%;
    
 
 }
 .FooterCont .FooterContainer{
     border-radius: 2vw;
-    background: linear-gradient(100.56deg, #3A80C8 31.28%, #3D8DDE 88.11%);
+    /* background: linear-gradient(100.56deg, #3A80C8 31.28%, #3D8DDE 88.11%); */
     height: auto;
     margin: 4%;
     display: flex;
     box-sizing: border-box;
     justify-content: center;
-    position: relative;
+    /* position: relative; */
+    background-image: url('../../assets/Images/Footer/Footer_Blue_Bg.png');
+    background-repeat: no-repeat;
 }
 .FooterCont .FooterContainer .FooterImages{
     position: relative;
     width: 50%;
+    /* top: 10%; */
+    margin-top: 3%;
 } 
-.FooterCont .FooterContainer .LeftCircle{
+/* .FooterCont .FooterContainer .LeftCircle{
     position: absolute;
     bottom: 0%;
     left: 0%;
@@ -39,7 +44,7 @@
     position: absolute;
     right: -83%;
     top: 28%;
-}
+} */
 
 .FooterCont .FooterContainer .FooterImages .FooterImage{
     position: relative;
@@ -115,4 +120,79 @@
 }
 .FooterCont .FooterItems .Useful ul li:hover{
     color: #3A80C8;
+}
+@media screen  and (max-width:765px){
+    .FooterCont .FooterContainer{
+        flex-direction: column;
+        background-image: none;
+        align-items: center;
+        background-color: #3A80C8;
+        
+    }
+    .FooterCont .FooterContainer .FooterImages{
+        width: 100%;
+        left: 8%;
+    }
+    .FooterCont .FooterContainer .FooterContent .Content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .FooterCont .FooterContainer .FooterContent .Content h2{
+        color: black;
+        text-align: center;
+    }
+    .FooterCont .FooterContainer .FooterContent .Content p{
+        color: black;
+        text-align: center;
+        padding-right: 0%;
+    }
+    .FooterCont .FooterContainer .FooterContent .Content img{
+        margin-top: 2%;
+        width: 40%;
+    }
+    .FooterCont .FooterItems{
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        text-align: justify;
+        padding: 5%;
+        /* display: grid;
+        grid-template-columns: auto;
+        text-align: center; */
+
+        /* background-color: #3A80C8; */
+        /* color: aliceblue; */
+        /* margin: 5%; */
+        color: black;
+    }
+    .FooterCont .FooterItems .FooterBg{
+        display: none;
+    }
+    .FooterCont .FooterItems .Footerlogo{
+        width: 100%;
+
+    }
+    .FooterCont .FooterItems .Footerlogo .Logo{
+        width: 50%;
+    }
+    .FooterCont .FooterItems .Footerlogo p{
+        width: 100%;
+        font-size: 1rem;
+    }
+    .FooterCont .FooterItems .Useful ul{
+        /* width: 100%; */
+    }
+    .FooterCont .FooterItems .Useful ul li{
+        margin-top: 1%;
+        /* width: 100%; */
+        /* text-align: center; */
+    }
+    .FooterCont .FooterItems .Useful h3{
+        /* text-align: center; */
+        color: #3A80C8;
+    }
+
+    
 }

@@ -1,18 +1,18 @@
-.HeroContainer{ 
-  
+.HeroContainer{
+ 
     display: flex;
     justify-content: center;
     background-image: url("../../../assets/Images/Hero/hero_bg.png");
     background-size:cover;
     background-repeat: no-repeat;
    
-    
-  
-
-    
+   
+ 
+ 
+   
 }
-
-.HeroContainer .HeroContent{   
+ 
+.HeroContainer .HeroContent{  
     display: flex;
     width: 90%;
     padding: 5% 10%;
@@ -21,7 +21,7 @@
 }
 .HeroContainer .HeroContent .Content h2{
     font-size: clamp(20px,2.6rem,50px);
-    line-height: 1.6; 
+    line-height: 1.6;
     font-weight: 650;
 }
 .HeroContainer .HeroContent .Content h2 span{
@@ -41,22 +41,12 @@
 .HeroContainer .HeroContent .HeroImg .Mobiles{  
     width: 100%;
     margin:10% 5%;
-  
+ 
 }
-
-
+ 
+ 
 @media screen and (max-width: 768px)  {
-
-    .HeroContainer{
-        display: block;
-        /* flex-direction: column; */
-        height: 100vh;
-        position: relative;
-        overflow: hidden;
-    
-    }
-  
-
+ 
     .HeroContainer .HeroContent .Content h2{
         font-size: 1.2rem;
         text-align: center;
@@ -64,42 +54,46 @@
     .HeroContainer .HeroContent .Content p{
         font-size: 1rem;
         text-align: center;
+        color:;
     }
     .HeroContainer .HeroContent{
-  
-
-      
+     
         display: flex;
+        height: 100%;
         flex-direction: column;
         margin-top: 20%;
-         
+     
+       
+       
+       
+       
     }
-
+ 
       .HeroContainer .HeroContent .Content  div{
-       display: flex;     
+       display: flex;
+     
        align-items: center;
        justify-content: center;
      
      
+ 
     }
     .HeroContainer .HeroContent .Content img{
         width: 30%;
      
-        
+       
     }
     .HeroContainer .HeroContent .HeroImg{
         width: 100%;
-        overflow: hidden;
-        flex: 0.5;
-
-    
+        height: 100%;
+     
     }
     .HeroContainer .HeroContent .HeroImg .Mobiles{
         max-width: 100%;
         max-height: 100%;
         object-fit: contain;
         margin: 3% 5%;
-    
+       
     }
-
+ 
 }

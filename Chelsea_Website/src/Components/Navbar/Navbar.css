@@ -145,16 +145,17 @@
     .NavbarMainCont .NavDesktop .NavImg .hamburger{
         display: block;
         margin-top: 5%;
+        margin-right: 3%;
     }
     .NavbarMainCont .NavDesktop .NavImg{
         width: 100%;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     .NavbarMainCont .NavDesktop .NavImg .NavLogo{
         width: 20%;
         margin-top: 2%;
-        margin-left: 0%;
+        margin-left: 2%;
     }
  
    }

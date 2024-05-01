@@ -8,7 +8,7 @@ function Index() {
 <>
         <Navbar/>
         <Outlet/>
-        {/* <Footer/> */}
+        <Footer/>
 </>
   )
 }

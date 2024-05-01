@@ -1,24 +1,24 @@
 .FeaturesCont{
     width: 100%;
-    position: relative;
    margin-top: 0%;
-   height: 70vw;
+   background-size:cover;
+   background-repeat: no-repeat;
+   background-image: url('../../../assets/Images/Features/Features_Bg.png');
+
 }
 .FeaturesCont .FeaturesBgImage{
     width: 100%;
-    height: 100%;
-    position: relative;
   
 }
 .FeaturesCont .FeaturesBgImage .FeaturesImage{
     /* width: 100%; */
-    position: absolute;
+    /* position: relative; */
     z-index: 10;
-    height: 100%;
+    /* height: 100%; */
 }                             
 .FeaturesCont .FeaturesExpalanation{
     width: 100%;  
-    position: absolute;
+    /* position: absolute; */
     top: 0%;
     z-index: 16;
     display: flex;
@@ -35,10 +35,10 @@
  
 }
 .FeaturesCont .FeaturesExpalanation .Designs .FeaturesMobile{
-    position: absolute;
-    top: 50%;
+    position: relative;
+    top: 0%;
     right: 2%;
-    width: 30%;   
+    width: 150%;   
 }
 .FeaturesCont .FeaturesExpalanation .Designs div .FeatureHeading{
     display: flex;
@@ -60,25 +60,11 @@
     justify-content: center;
 }
 .FeaturesCont .FeaturesExpalanation .Designs div .FeatureHeading .FeatureNumber div{
-
-    
-   
-
-    /* height: auto; */
-
     width: 100%;
      height: auto; 
     border-radius: 50%;
     width: 2.5vw;
-    height: 2.5vw;
-   
-   
-  
-    
-   
-   
-   
-   
+    height: 2.5vw;  
     background-color:white;
     box-sizing: border-box;
 }
@@ -88,7 +74,7 @@
     font-weight: 600;
     color: black;
     margin-top:10%;
-    /* padding: 2%; */
+    /* padding: 2%; */ 
     
   
 }
@@ -114,12 +100,7 @@
 }
 @media screen  and (max-width:765px){
     .FeaturesCont{
-<<<<<<< HEAD
-        /* height: 190vh; */
-=======
-       
->>>>>>> d6a905ec912513ded8ef9e99b8af1fba95bdcd28
-        max-height: fit-content;
+        height:fit-content;
     }
     .FeaturesCont .FeaturesExpalanation{
         display: flex;
