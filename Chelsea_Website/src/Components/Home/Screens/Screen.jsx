@@ -22,6 +22,18 @@ const images = [mobile1, mobile2, mobile3, mobile4, mobile5, mobile6, mobile7, m
 function Screen() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const imageListRef = useRef(null);
+  const [mobileCount,setMobileCount]=useState(0)
+  useEffect(()=>{
+    if(window.innerWidth<768){
+      setMobileCount(2)
+  
+    }
+    else{
+      setMobileCount(0)
+    }
+
+  },[])
+
 
 
   const [startIndex, setStartIndex] = useState(0);
@@ -59,7 +71,7 @@ function Screen() {
       // alert('hi')
     }
   const nextImage = () => {
-    if(currentIndex>=images.length-3){
+    if(currentIndex>=images.length-3-mobileCount){
 
     }
     else{
@@ -83,7 +95,7 @@ function Screen() {
     }
   };
   const getCircularSublist = (startIndex) => {
-    const end = (startIndex + 5) % images.length;
+    const end = (startIndex + 5-mobileCount) % images.length;
     return end > startIndex ? images.slice(startIndex, end) : [...images.slice(startIndex), ...images.slice(0, end)];
 };
 
@@ -113,9 +125,9 @@ const sublist = getCircularSublist(startIndex);
                 className={index === currentIndex+2 ? 'active' : ''}
               />
             ))}
-          </div>
+          </div> 
           <div className="navigation-buttons">
-            <button onClick={prevBtnHandler} disabled={startIndex === -3}>Previous</button>
+            <button onClick={prevBtnHandler} disabled={startIndex === -3-mobileCount}>Previous</button>
             <button onClick={nextBtnHandler} disabled={startIndex === images.length }>Next</button>
           </div>
         </div>

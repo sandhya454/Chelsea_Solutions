@@ -10,7 +10,7 @@ import CheckMark from '../../../assets/Images/Work/Check_Mark.png';
 function Work() {
   return (
     <div className='WorkProcess'>
-        <img src={BackgroundImage} alt="BackGroundImage" className='BackgroundImage' />
+        {/* <img src={BackgroundImage} alt="BackGroundImage" className='BackgroundImage' /> */}
         <div className='Explanation'>
             <div className='MobileImages'>
                 <img src={Mobile} alt="Mobile" className='Mobile' />

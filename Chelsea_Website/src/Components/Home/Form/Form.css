@@ -4,6 +4,8 @@
     box-sizing: border-box;
     margin-top: 10%;
     padding-bottom: 10%;
+    position: relative;
+    /* z-index: 100; */
 
 } 
 .HomePageForm .FormCard{
@@ -11,7 +13,7 @@
     justify-content: space-between;
     width: 100%;
     box-sizing: border-box;
-    height: 98%;
+    /* height: 98%; */
 }
 .HomePageForm .FormCard .Form{
     margin-left: 5%;
@@ -65,8 +67,6 @@
     /* width: 40%; */
     color: white;
     font-size: 1.2rem;
-
-
 }
 .HomePageForm .FormCard .Form form div .btn button:hover{
     cursor: pointer;
@@ -145,5 +145,50 @@
     margin-top: -2%;
 }
 @media screen  and (max-width:765px){
-    
+    .HomePageForm{
+        max-height: fit-content;
+
+    }
+    .HomePageForm .FormCard{
+        flex-direction: column;
+        /* margin-right: 5%; */
+        padding-right: 9%;
+    }
+    /* .HomePageForm .FormCard .Form */
+    .HomePageForm .FormCard .Form{
+        width: 100%;
+        /* margin-right: 10%; */
+        /* margin: 0% 5%; */
+    }
+    .HomePageForm .FormCard .Form form div input{
+        width: 90%;
+        margin: 2% -2%;
+    }
+    .HomePageForm .FormCard .Form form div textarea{
+        width: 90%;
+        margin: 2% -2%;
+    }
+    .HomePageForm .FormCard .Form .Content p{
+        width: 90%;
+        text-align: justify;
+        /* padding: 0% -5%; */
+    }
+
+    .HomePageForm .FormCard .LocationDetails{
+        width: 100%;
+        padding: 1%;
+    }
+    .HomePageForm .FormCard .LocationDetails h2{
+        width: 96%;
+        font-size: 1.5rem;
+    text-align: center;
+    }
+    .HomePageForm .FormCard .LocationDetails .Details .Content{
+        width: 100%;
+    }
+    .HomePageForm .FormCard .LocationDetails .Details .Content p{
+        text-align: justify;
+    }
+  
+
 }

@@ -1,10 +1,10 @@
 .InstallationExp{
     width: 100%;
-    position: relative;
+    /* position: relative; */
 }
 .InstallationExp .Explpanation{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 .InstallationExp .Explpanation .Content{
     width: 50%;
@@ -28,4 +28,26 @@
 }
 .InstallationExp .Explpanation .Image{
     width: 40%;
+}
+@media screen and (max-width:768px) {
+    .InstallationExp .Explpanation{
+        flex-direction: column-reverse;
+    }
+    .InstallationExp .Explpanation .Content{
+        width: 100%;
+        text-align: justify;
+        margin-right: 5%;
+
+    }
+    .InstallationExp .Explpanation .Content p{
+        font-size: 1rem;
+        /* margin-right: 5%; */
+        width: 90%;
+        padding-right: 0%;
+    }
+    .InstallationExp .Explpanation .Content img{
+        margin-right: 1%;
+        width: 30%;
+    }
+    
 }

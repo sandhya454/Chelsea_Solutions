@@ -9,19 +9,22 @@ import leftCircle from '../../assets/Images/Footer/LeftCircle.png';
 import TopCircle from '../../assets/Images/Footer/TopCircle.png';
 import SolidCircle from '../../assets/Images/Footer/SolidCircle.png';
 import SmallCircle from '../../assets/Images/Footer/SmallCircle.png';
+// import FooterBg from '../../assets/Images/Footer/Footer_Blue_Bg.png';
 import {useNavigate} from 'react-router-dom'
 function Footer() {
     const navigate=useNavigate()
   return (
     <div className='FooterCont'>
             <div className='FooterContainer'>
+              
                 <div className='FooterImages'>
+                {/* <img src={FooterBg} alt="FooterBg" className='FooterBg' /> */}
                     <div>
                         <img src={FooterImage} alt="FooterImage" className='FooterImage' />
-                        <img src={leftCircle} alt="leftCircle" className='LeftCircle' />
+                        {/* <img src={leftCircle} alt="leftCircle" className='LeftCircle' />
                         <img src={TopCircle} alt="TopCircle" className='TopCircle' />
                         <img src={SolidCircle} alt="SolidCircle" className='SolidCircle' />
-                        <img src={SmallCircle} alt="SmallCircle" className='SmallCircle' />
+                        <img src={SmallCircle} alt="SmallCircle" className='SmallCircle' /> */}
 
                     </div>
                 </div>
@@ -35,7 +38,7 @@ function Footer() {
                                
                 </div>
 
-            </div>
+            </div> 
         <div className='FooterItems'>
             <img src={FooterBg} alt="FooterBg"  className='FooterBg'/>
             <div className='Footerlogo'>

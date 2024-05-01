@@ -6,11 +6,11 @@ import FeaturesMobile from '../../../assets/Images/Features/Features_Mobile.png'
 function Features() {
   return (
     <div className='FeaturesCont'>
-        <div className='FeaturesBgImage'>
+        {/* <div className='FeaturesBgImage'>
             <img src={FeaturesImage} alt="FeaturesImage" className='FeaturesImage' />
-        </div> 
+        </div>  */}
         <div className='FeaturesExpalanation'>
-            <div className='Designs'>
+            <div className='Designs'> 
                 <div>
                    <div className='FeatureHeading'> <h3>Stay Informed</h3>
                    <div className='FeatureNumber'><div ><p className='Number'>1</p></div> </div>

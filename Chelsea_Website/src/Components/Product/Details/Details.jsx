@@ -20,12 +20,13 @@ function Details({page}) {
             </div>           
             </div>
           
-        </div> <div className='Images'>
+        </div> 
+        {/* <div className='Images'>
                 <img src={BlueRectangle} alt="BlueRectangle" className='BlueRectangle' />
                 <img src={BlueVector} alt="BlueVector" className='BlueVector' />
                 <img src={Star} alt="Star" className='Star' />
                 <img src={Triangle} alt="Triangle" className='Triangle' />
-                </div>
+                </div> */}
 
     </div>
 

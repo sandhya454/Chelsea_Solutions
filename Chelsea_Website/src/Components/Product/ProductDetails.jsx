@@ -17,7 +17,7 @@ function ProductDetails() {
     <Installation/>
     <Work/>
     <Actor/>
-    <VideoSection/>
+    {/* <VideoSection/> */}
  </>
   )
 }
