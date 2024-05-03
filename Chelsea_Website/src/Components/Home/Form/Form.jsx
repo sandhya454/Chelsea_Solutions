@@ -38,8 +38,7 @@ function Form() {
                 <div className='Details'>
                     <div className='icons'><Icon icon="ion:location-sharp" className='icon' /></div>
                     <div className='Content'>
-                        <h3>Location</h3>
-                       
+                        <h3>Location</h3>                       
                         <p> Chelsea Solutions Pvt Ltd ,<br/>
                         C CUBE BUILDING 1ST FLOOR PLOT NO 67, ROAD NO 9A,
                             <br/>JUBLIEE HILLS, Hyderabad,

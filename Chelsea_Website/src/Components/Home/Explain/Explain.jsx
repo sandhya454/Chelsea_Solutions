@@ -20,7 +20,7 @@ function Explain() {
     <div className='ExplanationCont'>
         <div className='AppInstall'>
             <div className='Cloud'>
-                <img src={Cloud} alt="Cloud" className='Cloud_Vector' />
+                <img src={Cloud} alt="Cloud" className='Cloud\_Vector' />
                 <h2>100K</h2>
                 <p>Active Installation</p>
             </div>
